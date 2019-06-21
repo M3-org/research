@@ -393,18 +393,18 @@ Anarchy Arcade served as the most premium base reality we ventured to on this tr
 
 Shortcuts examples for each platform:
 
-Anarchy Arcade
-`steam://run/266430//+join lobby81`
-Hubs
-`https://hubs.mozilla.com/SbDZKaS/talkative-remarkable-adventure`
-JanusWeb 
-`https://vesta.janusvr.com/bepis/vrcade`
-Cryptovoxels
-`https://www.cryptovoxels.com/play?coords=N@214E,3U,29S`
-Anyland
-`steam://run/505700//retrosunset`
-High Fidelity
-`hifi://makerbox/-39.9882,0.176166,-43.5439/0,0.995315,0,-0.0966881`
-VRChat
-`vrchat://launch?id=wrld_b51f016d-1073-4c75-930d-9f44222c7fc3`
+- Anarchy Arcade
+  - `steam://run/266430//+join lobby81`
+- Hubs
+  - `https://hubs.mozilla.com/SbDZKaS/talkative-remarkable-adventure`
+- JanusWeb 
+  - `https://vesta.janusvr.com/bepis/vrcade`
+- Cryptovoxels
+  - `https://www.cryptovoxels.com/play?coords=N@214E,3U,29S`
+- Anyland
+  - `steam://run/505700//retrosunset`
+- High Fidelity
+  - `hifi://makerbox/-39.9882,0.176166,-43.5439/0,0.995315,0,-0.0966881`
+- VRChat
+  - `vrchat://launch?id=wrld_b51f016d-1073-4c75-930d-9f44222c7fc3`
 
