@@ -410,3 +410,10 @@ Shortcuts examples for each platform:
 - VRChat
   - `vrchat://launch?id=wrld_b51f016d-1073-4c75-930d-9f44222c7fc3`
 
+---
+
+to-do:
+
+- [ ] Edit video clips
+- [ ] Explain why this is important
+- [ ] Elaborate on how interoperability benefits parties
