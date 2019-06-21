@@ -2,21 +2,23 @@
 
 # Cross-linking Virtual Worlds Pt. 2
 
+#### Main question
+
+How are avatars and objects moving between virtual worlds, why is this important, and how can a more seamless metaverse might benefit the parties involved?
+
+Link to part 1: <https://gist.github.com/madjin/ff580a7bbe6cc077cc87c3971801b99f>
+
+Link to proposal: <https://github.com/M3-org/proposals/issues/4>
 
 ![Traveling Between](https://i.imgur.com/BXjUHDZ.jpg)
 
 >"Instead of building one large Metaverse and splitting it into pieces, as has been done before, I looked at a different solution. How do we start with a bunch of unrelated pieces of software and combine them together to form a larger Metaverse? ... There are different authors, languages, graphics libraries, and more. If you wanted to create a way for players (avatars) to actually move between them, how could it be done? How would you move from JanusVR to Minecraft? How do you walk from Minecraft into VRChat?" - [*Traveling Between Unrelated Virtual Worlds*](https://metaversing.com/2014/05/11/travelling-between-unrelated-virtual-worlds/) by [Atari_Historian](https://www.reddit.com/user/Atari_Historian/)
 
 
-
 > "While Iribe admits that a billion-person MMO is "going to take a bigger network than exists in the world today," he says Facebook's network makes a great place to start, and suggested it could be a Metaverse that joins disparate virtual worlds." - [Oculus wants to build a billion person MMO with Facebook](https://www.theverge.com/2014/5/5/5684236/oculus-wants-to-build-a-billion-person-mmo-with-facebook)
 
 
-#### Main question
-
-How are avatars and objects moving between virtual worlds, why is this important, and how can a more seamless metaverse might benefit the parties involved?
-
-#### Other questions
+#### Survey Questions
 
 - What are these worlds made out of?
 - Who created the content we are consuming? Users? Pros?
