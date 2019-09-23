@@ -1,6 +1,6 @@
 # world-traversal
 
-# Cross-linking Virtual Worlds Pt. 2
+## Cross-linking Virtual Worlds Pt. 2
 
 #### Main question
 
