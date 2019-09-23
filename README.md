@@ -1,4 +1,4 @@
-# world-traversal
+# World Traversal
 
 ## Cross-linking Virtual Worlds Pt. 2
 
