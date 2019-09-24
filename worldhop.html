@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>
+        world-traversal - HackMD
+    </title>
+    <link rel="icon" type="image/png" href="https://hackmd.io/favicon.png">
+    <link rel="apple-touch-icon" href="https://hackmd.io/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" integrity="sha256-3iu9jgsy9TpTwXKb7bNQzqWekRX7pPK+2OLj3R922fo=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" integrity="sha256-QiWfLIsCT02Sdwkogf6YMiQlj4NE84MKkzEMkZnMGdg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" integrity="sha256-vtR0hSWRc3Tb26iuN2oZHt3KRUomwTufNIf5/4oeCyg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/css/basic/emojify.min.css" integrity="sha256-UOrvMOsSDSrW6szVLe8ZDZezBxh5IoIfgTwdNDgTjiU=" crossorigin="anonymous" />
+    <style>
+        @charset "UTF-8";@import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i|Source+Code+Pro:300,400,500|Source+Sans+Pro:300,300i,400,400i,600,600i|Source+Serif+Pro&subset=latin-ext);.hljs{display:block;background:#fff;padding:.5em;color:#333;overflow-x:auto}.hljs-comment,.hljs-meta{color:#969896}.hljs-emphasis,.hljs-quote,.hljs-string,.hljs-strong,.hljs-template-variable,.hljs-variable{color:#df5000}.hljs-keyword,.hljs-selector-tag,.hljs-type{color:#a71d5d}.hljs-attribute,.hljs-bullet,.hljs-literal,.hljs-number,.hljs-symbol{color:#0086b3}.hljs-built_in,.hljs-builtin-name{color:#005cc5}.hljs-name,.hljs-section{color:#63a35c}.hljs-tag{color:#333}.hljs-attr,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-selector-pseudo,.hljs-title{color:#795da3}.hljs-addition{color:#55a532;background-color:#eaffea}.hljs-deletion{color:#bd2c00;background-color:#ffecec}.hljs-link{text-decoration:underline}.markdown-body{font-size:16px;line-height:1.5;word-wrap:break-word}.markdown-body:after,.markdown-body:before{display:table;content:""}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:#c00}.markdown-body .anchor{float:left;padding-right:4px;margin-left:-20px;line-height:1}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body hr{height:.25em;padding:0;margin:24px 0;background-color:#e7e7e7;border:0}.markdown-body blockquote{font-size:16px;padding:0 1em;color:#777;border-left:.25em solid #ddd}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body kbd,.popover kbd{display:inline-block;padding:3px 5px;font-size:11px;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb}.markdown-body .loweralpha{list-style-type:lower-alpha}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:#000;vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit}.markdown-body h1{font-size:2em}.markdown-body h1,.markdown-body h2{padding-bottom:.3em;border-bottom:1px solid #eee}.markdown-body h2{font-size:1.5em}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#777}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol.no-list,.markdown-body ul.no-list{padding:0;list-style-type:none}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body table{display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}.markdown-body table th{font-weight:700}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #ddd}.markdown-body table tr{background-color:#fff;border-top:1px solid #ccc}.markdown-body table tr:nth-child(2n){background-color:#f8f8f8}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{max-width:none;vertical-align:text-top;background-color:transparent}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid #ddd}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{display:block;padding:5px 0 0;clear:both;color:#333}.markdown-body span.align-center{display:block;overflow:hidden;clear:both}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{display:block;overflow:hidden;clear:both}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{padding:0;padding-top:.2em;padding-bottom:.2em;margin:0;font-size:85%;background-color:rgba(0,0,0,.04);border-radius:3px}.markdown-body code:after,.markdown-body code:before,.markdown-body tt:after,.markdown-body tt:before{letter-spacing:-.2em;content:"\00a0"}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre{word-wrap:normal}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:transparent;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px}.markdown-body pre code,.markdown-body pre tt{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code:after,.markdown-body pre code:before,.markdown-body pre tt:after,.markdown-body pre tt:before{content:normal}.markdown-body .csv-data td,.markdown-body .csv-data th{padding:5px;overflow:hidden;font-size:12px;line-height:1;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-line-num{padding:10px 8px 9px;text-align:right;background:#fff;border:0}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{font-weight:700;background:#f8f8f8;border-top:0}.news .alert .markdown-body blockquote{padding:0 0 0 40px;border:0 none}.activity-tab .news .alert .commits,.activity-tab .news .markdown-body blockquote{padding-left:0}.task-list-item{list-style-type:none}.task-list-item label{font-weight:400}.task-list-item.enabled label{cursor:pointer}.task-list-item+.task-list-item{margin-top:3px}.task-list-item-checkbox{float:left;margin:.31em 0 .2em -1.3em!important;vertical-align:middle;cursor:default!important}.markdown-body{padding-top:40px;padding-bottom:40px;max-width:758px;overflow:visible!important}.markdown-body .emoji{vertical-align:top}.markdown-body pre{border:inherit!important}.markdown-body code{color:inherit!important}.markdown-body pre code .wrapper{display:-moz-inline-flex;display:-ms-inline-flex;display:-o-inline-flex;display:inline-flex}.markdown-body pre code .gutter{float:left;overflow:hidden;-webkit-user-select:none;user-select:none}.markdown-body pre code .gutter.linenumber{text-align:right;position:relative;display:inline-block;cursor:default;z-index:4;padding:0 8px 0 0;min-width:20px;box-sizing:content-box;color:#afafaf!important;border-right:3px solid #6ce26c!important}.markdown-body pre code .gutter.linenumber>span:before{content:attr(data-linenumber)}.markdown-body pre code .code{float:left;margin:0 0 0 16px}.markdown-body .gist .line-numbers{border-left:none;border-top:none;border-bottom:none}.markdown-body .gist .line-data{border:none}.markdown-body .gist table{border-spacing:0;border-collapse:inherit!important}.markdown-body code[data-gist-id]{background:none;padding:0}.markdown-body code[data-gist-id]:after,.markdown-body code[data-gist-id]:before{content:""}.markdown-body code[data-gist-id] .blob-num{border:unset}.markdown-body code[data-gist-id] table{overflow:unset;margin-bottom:unset}.markdown-body code[data-gist-id] table tr{background:unset}.markdown-body[dir=rtl] pre{direction:ltr}.markdown-body[dir=rtl] code{direction:ltr;unicode-bidi:embed}.markdown-body .alert>p{margin-bottom:0}.markdown-body pre.abc,.markdown-body pre.flow-chart,.markdown-body pre.graphviz,.markdown-body pre.mermaid,.markdown-body pre.sequence-diagram{text-align:center;background-color:inherit;border-radius:0;white-space:inherit}.markdown-body pre.abc>code,.markdown-body pre.flow-chart>code,.markdown-body pre.graphviz>code,.markdown-body pre.mermaid>code,.markdown-body pre.sequence-diagram>code{text-align:left}.markdown-body pre.abc>svg,.markdown-body pre.flow-chart>svg,.markdown-body pre.graphviz>svg,.markdown-body pre.mermaid>svg,.markdown-body pre.sequence-diagram>svg{max-width:100%;height:100%}.markdown-body pre>code.wrap{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}.markdown-body .alert>p,.markdown-body .alert>ul{margin-bottom:0}.markdown-body summary{display:list-item}.markdown-body summary:focus{outline:none}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none}.markdown-body figure{margin:1em 40px}.markdown-body .mark,.markdown-body mark{background-color:#fff1a7}.vimeo,.youtube{cursor:pointer;display:table;text-align:center;background-position:50%;background-repeat:no-repeat;background-size:contain;background-color:#000;overflow:hidden}.vimeo,.youtube{position:relative;width:100%}.youtube{padding-bottom:56.25%}.vimeo img{width:100%;object-fit:contain;z-index:0}.youtube img{object-fit:cover;z-index:0}.vimeo iframe,.youtube iframe,.youtube img{width:100%;height:100%;position:absolute;top:0;left:0}.vimeo iframe,.youtube iframe{vertical-align:middle;z-index:1}.vimeo .icon,.youtube .icon{position:absolute;height:auto;width:auto;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;opacity:.3;transition:opacity .2s;z-index:0}.vimeo:hover .icon,.youtube:hover .icon{opacity:.6;transition:opacity .2s}.slideshare .inner,.speakerdeck .inner{position:relative;width:100%}.slideshare .inner iframe,.speakerdeck .inner iframe{position:absolute;top:0;bottom:0;left:0;right:0;width:100%;height:100%}.MJX_Assistive_MathML{display:none}.ui-infobar{position:relative;z-index:2;max-width:760px;margin:25px auto -25px;padding:0 15px;color:#777}.toc .invisable-node{list-style-type:none}.ui-toc{position:fixed;bottom:20px;z-index:998}.ui-toc-label{opacity:.3;background-color:#ccc;border:none;transition:opacity .2s}.ui-toc .open .ui-toc-label{opacity:1;color:#fff;transition:opacity .2s}.ui-toc-label:focus{opacity:.3;background-color:#ccc;color:#000}.ui-toc-label:hover{opacity:1;background-color:#ccc;transition:opacity .2s}.ui-toc-dropdown{margin-top:23px;margin-bottom:20px;padding-left:10px;padding-right:10px;max-width:45vw;width:25vw;max-height:70vh;overflow:auto;text-align:inherit}.ui-toc-dropdown>.toc{max-height:calc(70vh - 100px);overflow:auto}.ui-toc-dropdown[dir=rtl] .nav{padding-right:0;letter-spacing:.0029em}.ui-toc-dropdown a{overflow:hidden;text-overflow:ellipsis;white-space:pre}.ui-toc-dropdown .nav>li>a{display:block;padding:4px 20px;font-size:13px;font-weight:500;color:#767676}.ui-toc-dropdown .nav>li:first-child:last-child > ul,.ui-toc-dropdown .toc.expand ul{display:block}.ui-toc-dropdown .nav>li>a:focus,.ui-toc-dropdown .nav>li>a:hover{padding-left:19px;color:#000;text-decoration:none;background-color:transparent;border-left:1px solid #000}.ui-toc-dropdown[dir=rtl] .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav>li>a:hover{padding-right:19px;border-left:none;border-right:1px solid #000}.ui-toc-dropdown .nav>.active:focus>a,.ui-toc-dropdown .nav>.active:hover>a,.ui-toc-dropdown .nav>.active>a{padding-left:18px;font-weight:700;color:#000;background-color:transparent;border-left:2px solid #000}.ui-toc-dropdown[dir=rtl] .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav>.active>a{padding-right:18px;border-left:none;border-right:2px solid #000}.ui-toc-dropdown .nav .nav{display:none;padding-bottom:10px}.ui-toc-dropdown .nav>.active>ul{display:block}.ui-toc-dropdown .nav .nav>li>a{padding-top:1px;padding-bottom:1px;padding-left:30px;font-size:12px;font-weight:400}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a{padding-right:30px}.ui-toc-dropdown .nav .nav>li>ul>li>a{padding-top:1px;padding-bottom:1px;padding-left:40px;font-size:12px;font-weight:400}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a{padding-right:40px}.ui-toc-dropdown .nav .nav>li>a:focus,.ui-toc-dropdown .nav .nav>li>a:hover{padding-left:29px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:hover{padding-right:29px}.ui-toc-dropdown .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown .nav .nav>li>ul>li>a:hover{padding-left:39px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:hover{padding-right:39px}.ui-toc-dropdown .nav .nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>a{padding-left:28px;font-weight:500}.ui-toc-dropdown[dir=rtl] .nav .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>a{padding-right:28px}.ui-toc-dropdown .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active>a{padding-left:38px;font-weight:500}.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active>a{padding-right:38px}.markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif}html[lang^=ja] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html[lang=zh-tw] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}html .markdown-body[lang^=ja]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html .markdown-body[lang=zh-tw]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html .markdown-body[lang=zh-cn]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}html[lang^=ja] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ\ Ｐゴシック,sans-serif}html[lang=zh-tw] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html[lang=zh-cn] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}html .ui-toc-dropdown[lang^=ja]{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ\ Ｐゴシック,sans-serif}html .ui-toc-dropdown[lang=zh-tw]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html .ui-toc-dropdown[lang=zh-cn]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}.ui-affix-toc{position:fixed;top:0;max-width:15vw;max-height:70vh;overflow:auto}.back-to-top,.expand-toggle,.go-to-bottom{display:block;padding:4px 10px;margin-top:10px;margin-left:10px;font-size:12px;font-weight:500;color:#999}.back-to-top:focus,.back-to-top:hover,.expand-toggle:focus,.expand-toggle:hover,.go-to-bottom:focus,.go-to-bottom:hover{color:#563d7c;text-decoration:none}.back-to-top,.go-to-bottom{margin-top:0}.ui-user-icon{width:20px;height:20px;display:block;border-radius:3px;margin-top:2px;margin-bottom:2px;margin-right:5px;background-position:50%;background-repeat:no-repeat;background-size:cover}.ui-user-icon.small{width:18px;height:18px;display:inline-block;vertical-align:middle;margin:0 0 .2em}.ui-infobar>small>span{line-height:22px}.ui-infobar>small .dropdown{display:inline-block}.ui-infobar>small .dropdown a:focus,.ui-infobar>small .dropdown a:hover{text-decoration:none}.ui-published-note{color:#337ab7}.ui-published-note .fa{font-size:20px;vertical-align:top}.unselectable{-webkit-user-select:none;-o-user-select:none;user-select:none}@media print{blockquote,div,img,pre,table{page-break-inside:avoid!important}a[href]:after{font-size:12px!important}}.markdown-body.slides{position:relative;z-index:1;color:#222}.markdown-body.slides:before{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1;background-color:currentColor;box-shadow:0 0 0 50vw}.markdown-body.slides section[data-markdown]{position:relative;margin-bottom:1.5em;background-color:#fff;text-align:center}.markdown-body.slides section[data-markdown] code{text-align:left}.markdown-body.slides section[data-markdown]:before{content:"";display:block;padding-bottom:56.23%}.markdown-body.slides section[data-markdown]>div:first-child{position:absolute;top:50%;left:1em;right:1em;transform:translateY(-50%);max-height:100%;overflow:hidden}.markdown-body.slides section[data-markdown]>ul{display:inline-block}.markdown-body.slides>section>section+section:after{content:"";position:absolute;top:-1.5em;right:1em;height:1.5em;border:3px solid #777}body{font-smoothing:subpixel-antialiased!important;-webkit-font-smoothing:subpixel-antialiased!important;-moz-osx-font-smoothing:auto!important;text-shadow:0 0 1em transparent,1px 1px 1.2px rgba(0,0,0,.004);-webkit-overflow-scrolling:touch;letter-spacing:.025em}.focus,:focus{outline:none!important}::-moz-focus-inner{border:0!important}body{font-family:Source Sans Pro,Helvetica,Arial,sans-serif}html[lang^=ja] body{font-family:Source Sans Pro,Helvetica,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html[lang=zh-tw] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}abbr[data-original-title],abbr[title]{cursor:help}body.modal-open{overflow-y:auto;padding-right:0!important}
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="doc" class="markdown-body container-fluid comment-enabled" data-hard-breaks="true" style="position: relative;"><h1 id="world-traversal" style=""><a class="anchor hidden-xs" href="#world-traversal" title="world-traversal"><span class="octicon octicon-link"></span></a>world-traversal</h1><h1 id="Cross-linking-Virtual-Worlds-Pt-2" style=""><a class="anchor hidden-xs" href="#Cross-linking-Virtual-Worlds-Pt-2" title="Cross-linking-Virtual-Worlds-Pt-2"><span class="octicon octicon-link"></span></a>Cross-linking Virtual Worlds Pt. 2</h1><h4 id="Main-question"><a class="anchor hidden-xs" href="#Main-question" title="Main-question"><span class="octicon octicon-link"></span></a>Main question</h4><p>How are avatars and objects moving between virtual worlds, why is this important, and how can a more seamless metaverse might benefit the parties involved?</p><p>Link to part 1: <a href="https://gist.github.com/madjin/ff580a7bbe6cc077cc87c3971801b99f" target="_blank" rel="noopener">https://gist.github.com/madjin/ff580a7bbe6cc077cc87c3971801b99f</a></p><p>Link to proposal: <a href="https://github.com/M3-org/proposals/issues/4" target="_blank" rel="noopener">https://github.com/M3-org/proposals/issues/4</a></p><p><img src="https://i.imgur.com/BXjUHDZ.jpg" alt="Traveling Between"></p><blockquote>
+<p>“Instead of building one large Metaverse and splitting it into pieces, as has been done before, I looked at a different solution. How do we start with a bunch of unrelated pieces of software and combine them together to form a larger Metaverse? … There are different authors, languages, graphics libraries, and more. If you wanted to create a way for players (avatars) to actually move between them, how could it be done? How would you move from JanusVR to Minecraft? How do you walk from Minecraft into VRChat?” - <a href="https://metaversing.com/2014/05/11/travelling-between-unrelated-virtual-worlds/" target="_blank" rel="noopener"><em>Traveling Between Unrelated Virtual Worlds</em></a> by <a href="https://www.reddit.com/user/Atari_Historian/" target="_blank" rel="noopener">Atari_Historian</a></p>
+</blockquote><blockquote>
+<p>“While Iribe admits that a billion-person MMO is “going to take a bigger network than exists in the world today,” he says Facebook’s network makes a great place to start, and suggested it could be a Metaverse that joins disparate virtual worlds.” - <a href="https://www.theverge.com/2014/5/5/5684236/oculus-wants-to-build-a-billion-person-mmo-with-facebook" target="_blank" rel="noopener">Oculus wants to build a billion person MMO with Facebook</a></p>
+</blockquote><h4 id="Survey-Questions"><a class="anchor hidden-xs" href="#Survey-Questions" title="Survey-Questions"><span class="octicon octicon-link"></span></a>Survey Questions</h4><ul>
+<li>What are these worlds made out of?</li>
+<li>Who created the content we are consuming? Users? Pros?</li>
+<li>How easy was it for them to do it?</li>
+<li>What tools were they likely using?</li>
+<li>Were they happy with what they created?</li>
+<li>What kind of system powers the distribution of their creations when we join the server?</li>
+</ul><p>Original proposal: <a href="https://github.com/M3-org/proposals/issues/4" target="_blank" rel="noopener">https://github.com/M3-org/proposals/issues/4</a></p><hr><h3 id="What-do-we-want-to-communicate-between-worlds" style=""><a class="anchor hidden-xs" href="#What-do-we-want-to-communicate-between-worlds" title="What-do-we-want-to-communicate-between-worlds"><span class="octicon octicon-link"></span></a>What do we want to communicate between worlds?</h3><p>Discuss data portability such as:</p><ul>
+<li><strong>basic identity information</strong></li>
+<li><strong>real-time positional information</strong></li>
+</ul><p>We can elaborate further on data portability where possible to discuss:</p><ul>
+<li>Places</li>
+<li>Bookmarks</li>
+<li>Ledgers</li>
+<li>Credentials</li>
+<li>Credit cards</li>
+<li>Chat logs</li>
+<li>Graph relationships</li>
+<li>Media streams</li>
+</ul><hr><h2 id="The-Path" style=""><a class="anchor hidden-xs" href="#The-Path" title="The-Path"><span class="octicon octicon-link"></span></a>The Path</h2><p>Here is the route that we took on this cross-link trip, click any to scroll down fast:</p><p><img alt=":arrow_forward:" class="emoji" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/arrow_forward.png" title=":arrow_forward:"> <a href="" target="_blank" rel="noopener">Anarchy Arcade</a><br>
+<img alt=":arrow_forward:" class="emoji" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/arrow_forward.png" title=":arrow_forward:"> <a href="" target="_blank" rel="noopener">Hubs</a><br>
+<img alt=":arrow_forward:" class="emoji" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/arrow_forward.png" title=":arrow_forward:"> <a href="" target="_blank" rel="noopener">JanusWeb</a><br>
+<img alt=":arrow_forward:" class="emoji" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/arrow_forward.png" title=":arrow_forward:"> <a href="" target="_blank" rel="noopener">Cryptovoxels</a><br>
+<img alt=":arrow_forward:" class="emoji" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/arrow_forward.png" title=":arrow_forward:"> <a href="" target="_blank" rel="noopener">Anyland</a><br>
+<img alt=":leftwards_arrow_with_hook:" class="emoji" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/leftwards_arrow_with_hook.png" title=":leftwards_arrow_with_hook:"> <a href="" target="_blank" rel="noopener">Cryptovoxels</a><br>
+<img alt=":arrow_forward:" class="emoji" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/arrow_forward.png" title=":arrow_forward:"> <a href="" target="_blank" rel="noopener">JanusWeb</a><br>
+<img alt=":arrow_forward:" class="emoji" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/arrow_forward.png" title=":arrow_forward:"> <a href="" target="_blank" rel="noopener">High Fidelity</a><br>
+<img alt=":arrow_forward:" class="emoji" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/arrow_forward.png" title=":arrow_forward:"> <a href="" target="_blank" rel="noopener">VRChat</a><br>
+<img alt=":leftwards_arrow_with_hook:" class="emoji" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/leftwards_arrow_with_hook.png" title=":leftwards_arrow_with_hook:"> <a href="" target="_blank" rel="noopener">Anarchy Arcade</a></p><h3 id="Anarchy-Arcade-gtgt-Hubs" style=""><a class="anchor hidden-xs" href="#Anarchy-Arcade-gtgt-Hubs" title="Anarchy-Arcade-gtgt-Hubs"><span class="octicon octicon-link"></span></a>Anarchy Arcade &gt;&gt; Hubs</h3><p><img src="https://i.imgur.com/mUA7SdK.jpg" alt="AA to Hubs"></p><p>We started first in Anarchy Arcade, a 3D desktop / shortcut launcher, and made our way through a hallway jam packed with virtual shortcuts represented as tablets and cabinets to one that was decorated with the Hubs logo.</p><p><img src="https://i.imgur.com/UGVlX8y.jpg" alt="Discord login required for Hubs room"></p><p>Double clicking the screen opened the Hubs website in full screen, showing a button on the right that says “Launch Game”.</p><p><img src="https://i.imgur.com/FsBrOmF.jpg" alt="Launching the title pauses Anarchy Arcade"></p><p>After clicking Launch, the screen darkens and pauses and a new tab opens on my default web browser with the link. Because I’m already signed into discord from my browser, I’m automatically granted access into the room.</p><p><img src="https://i.imgur.com/x90jezC.jpg" alt="Hubs and AA"></p><h4 id="Anarchy-Arcade-Survey"><a class="anchor hidden-xs" href="#Anarchy-Arcade-Survey" title="Anarchy-Arcade-Survey"><span class="octicon octicon-link"></span></a>Anarchy Arcade Survey</h4><p><strong>What is communicated between the worlds?</strong></p><p>The destination that we wanted to go to (server and spawn position) was communicatd from the launching app (AA) to the launched app (Hubs) which allowed us to bypass menus.</p><p>We were in Anarchy Arcade signed in with our Steam identity. The Hubs world is locked behind Discord identity system. It launches the Hubs link just like how a regular desktop shortcut would. IE. when we launch Hubs from the MSF object, our favorite trusted default web browser, which may already be signed into Discord, opens the link in a new tab.</p><p><strong>What are these worlds made out of?</strong></p><p>Anarchy Arcade is built by users spawning dynamic objects inside pre-made maps.</p><p><strong>Who created the content we are consuming? Users? Pros?</strong></p><p>It’s a mix, pros create the primitives that users populate their maps with.</p><p><strong>How easy was it for them to do it?</strong></p><p>Simple as drag and drop.</p><p><strong>What tools were they likely using?</strong></p><p>In-game tools to position the objects and customize their attributes.</p><p><strong>Were they happy with what they created?</strong></p><p>Very happy since the worlds are made from the stuff they like.</p><p><strong>What kind of system powers the distribution of their creations when we join the server?</strong></p><p>JSON through the Firebase and it could also be transfered through web servers and the steam workshop. Anywhere we can transfer files.</p><p>The worlds are created and saved locally. When hosted multiplayer they are instanced to the cloud (like Firebase) where others can join and explore the content.</p><hr><h3 id="Hubs-gtgt-JanusWeb" style=""><a class="anchor hidden-xs" href="#Hubs-gtgt-JanusWeb" title="Hubs-gtgt-JanusWeb"><span class="octicon octicon-link"></span></a>Hubs &gt;&gt; JanusWeb</h3><p>We are using Discords identity system, communicating over Discords voice chat, while inside Hubs and muting the in-game voice so we don’t echo.</p><p><img src="https://i.imgur.com/lV6lLon.jpg" alt=""></p><p>To launch the next destination, a link was posted in the chat and then spawned as a 3D object as a flat plane with a button on it.</p><p><img src="https://i.imgur.com/aa02zFu.jpg" alt=""></p><p>Clicking the link then opened up JanusWeb on a new tab, keeping Hubs still open in the same browser session. The Hubs tab was optimized because it was in the background, not being rendered, but still active as a communication channel.</p><h4 id="Hubs-Survey"><a class="anchor hidden-xs" href="#Hubs-Survey" title="Hubs-Survey"><span class="octicon octicon-link"></span></a>Hubs Survey</h4><p><strong>What is communicated between the worlds?</strong></p><p>The destination that we wanted to go to (server and spawn position) was communicatd from the launching app (Hubs) to the launched app (JanusWeb) which allowed us to bypass menus.</p><p>When going from Hubs to JanusWeb, our identities were lost but we could spawn to a location and server within the Janus scene specified within the JML. See: <a href="https://madjin.github.io/janus-guide/#/build/room?id=entrance-portal" target="_blank" rel="noopener">Entrance Portal</a>.</p><p><strong>What are these worlds made out of?</strong></p><p>The environments for Hubs are created in Spoke then uploaded to be remixed. Within Hubs we can then spawn props, links, videos, and images from the web or our local hard drives which get uploaded temporarily to Mozilla’s servers for 48 hours unless pinned.</p><p><strong>Who created the content we are consuming? Users? Pros?</strong></p><p>Mix of pros creating the presets and props and tooling to make it easy for regular users to spawn and populate the environments with.</p><p><strong>How easy was it for them to do it?</strong></p><p>Simple as drag and drop or spawning with a magic wand then repositioning in space.</p><p><strong>What tools were they likely using?</strong></p><p>In-game tools and editor system.</p><p><strong>Were they happy with what they created?</strong></p><p>Yes although much of the content is ephemeral and used in the process of brainstorming.</p><p><strong>What kind of system powers the distribution of their creations when we join the server?</strong></p><p>The Hubs server which is all <a href="https://github.com/mozilla/hubs" target="_blank" rel="noopener">open source</a>.</p><hr><h3 id="JanusWeb-gtgt-Cryptovoxels" style=""><a class="anchor hidden-xs" href="#JanusWeb-gtgt-Cryptovoxels" title="JanusWeb-gtgt-Cryptovoxels"><span class="octicon octicon-link"></span></a>JanusWeb &gt;&gt; Cryptovoxels</h3><p>When we spawned into JanusWeb, our identities were lost and we took the form of floating tablets.</p><p>The portal to Cryptovoxels is a <a href="https://madjin.github.io/janus-guide/#/examples/components?id=showcase" target="_blank" rel="noopener">showcase</a> component that featured a live websurface with a live websurface of our destination. The URL we saw running on the wall is the same that we navigated to by passing through the <a href="https://madjin.github.io/janus-guide/#/examples/components?id=teleporter" target="_blank" rel="noopener">teleporter</a>.</p><p><img src="https://i.imgur.com/cicxuFp.jpg" alt=""></p><p>It’s another web to web transition but this time it replaced our active window instead of launching a new tab! Just like teleportation, the original gets destroyed when transitioning to the next dimension thus balancing the equation <a href="https://en.wikipedia.org/wiki/Teletransportation_paradox" target="_blank" rel="noopener">(Ship of Theseus)</a>.</p><h4 id="JanusWeb-Survey"><a class="anchor hidden-xs" href="#JanusWeb-Survey" title="JanusWeb-Survey"><span class="octicon octicon-link"></span></a>JanusWeb Survey</h4><p><strong>What is communicated between the worlds?</strong></p><p>The destination that we wanted to go to (server and spawn position) was communicated from the launching app (JanusWeb) to the launched app (Cryptovoxels) via the URL parameters. We could go to any specific XYZ point within Cryptovoxels by the URL.</p><p><strong>What are these worlds made out of?</strong></p><p>JanusVR sites are made with JML which is a markup language very similar HTML which is often made using the native browser/editor Janus because of how easy it is to build.</p><p><strong>Who created the content we are consuming? Users? Pros?</strong></p><p>These worlds are typically made by users which are often modded by each other.</p><p><strong>How easy was it for them to do it?</strong></p><p>The instructions are a bit obscure right now but most often people build and export JML using the in-game editing system that Janus has.</p><p><strong>What tools were they likely using?</strong></p><ul>
+<li><a href="https://madjin.github.io/janus-guide/#/home/install" target="_blank" rel="noopener">Janus</a></li>
+<li><a href="https://madjin.github.io/janus-guide/#/README?id=janus-tools" target="_blank" rel="noopener">Janus Tools</a></li>
+<li><a href="https://vesta.janusvr.com/search/template/1" target="_blank" rel="noopener">Vesta templates</a></li>
+<li><a href="https://github.com/janusvr-examples" target="_blank" rel="noopener">JanusVR Examples</a></li>
+</ul><p><strong>Were they happy with what they created?</strong></p><p>Yeah I guess.</p><p><strong>What kind of system powers the distribution of their creations when we join the server?</strong></p><p>Janus apps are basically text files containing JML which can be hosted via web servers, p2p swarms, and free hosting services like <a href="https://vesta.janusvr.com" target="_blank" rel="noopener">Vesta</a>, <a href="https://glitch.com" target="_blank" rel="noopener">Glitch</a>, and <a href="https://neocities.org" target="_blank" rel="noopener">Neocities</a>.</p><hr><h3 id="Cryptovoxels-gtgt-Anyland" style=""><a class="anchor hidden-xs" href="#Cryptovoxels-gtgt-Anyland" title="Cryptovoxels-gtgt-Anyland"><span class="octicon octicon-link"></span></a>Cryptovoxels &gt;&gt; Anyland</h3><h3 id="Anyland-gtgt-Cryptovoxels" style=""><a class="anchor hidden-xs" href="#Anyland-gtgt-Cryptovoxels" title="Anyland-gtgt-Cryptovoxels"><span class="octicon octicon-link"></span></a>Anyland &gt;&gt; Cryptovoxels</h3><hr><h3 id="Cryptovoxels-gtgt-JanusWeb" style=""><a class="anchor hidden-xs" href="#Cryptovoxels-gtgt-JanusWeb" title="Cryptovoxels-gtgt-JanusWeb"><span class="octicon octicon-link"></span></a>Cryptovoxels &gt;&gt; JanusWeb</h3><p>We spawned in Cryptovoxels at a specific location and waited for everybody to gather before walking to the portal hub down the street.</p><p><img src="https://i.imgur.com/oKklrJh.jpg" alt=""></p><p>Our group made its way through the alley between the <a href="https://www.cryptovoxels.com/play?coords=209E,25S" target="_blank" rel="noopener">The Warp Bar</a> and <a href="https://www.cryptovoxels.com/play?coords=231E,8S" target="_blank" rel="noopener">1 Ron Road</a> which contained a link to our next destination.</p><p><img src="https://i.imgur.com/taAjpbj.jpg" alt=""></p><p>Standing in front of the <a href="https://vesta.janusvr.com/bepis/vrcade" target="_blank" rel="noopener">VRcade</a> picture we directed our attention to the hyperlink at the base which upon being clicked opened a new tab to JanusWeb.</p><h4 id="Cryptovoxels-Survey"><a class="anchor hidden-xs" href="#Cryptovoxels-Survey" title="Cryptovoxels-Survey"><span class="octicon octicon-link"></span></a>Cryptovoxels Survey</h4><p><strong>What is communicated between the worlds?</strong></p><p>The destination that we wanted to go to (server and spawn position) was communicatd from the launching app (Hubs) to the launched app (JanusWeb) which allowed us to bypass menus.</p><p><strong>What are these worlds made out of?</strong></p><p>Cryptovoxels parcels are made from 0.5cm parcels and users can add in their favorite art, mp3s, text, particles, and NFTs.</p><p><strong>Who created the content we are consuming? Users? Pros?</strong></p><p>The community in Cryptovoxels is mostly composed of users, many of whom do not have previous 3D modeling experience. Professional artists are swarming into the city to establish art galleries.</p><p><strong>How easy was it for them to do it?</strong></p><p>Very easy, in 24 hours a person with 0 experience making 3D content can build something incredible.</p><p><strong>What tools were they likely using?</strong></p><p>The in-game editor which is very similar to Minecraft.</p><p><strong>Were they happy with what they created?</strong></p><p>People are really happy, the feeling of ownership, self expression, and community in Cryptovoxels creates a positive network effect.</p><p><strong>What kind of system powers the distribution of their creations when we join the server?</strong></p><p>The ownership of parcels (NFTs) is decentralized and tied to ethereum wallets and the world state is saved as a giant json (about 3.7mb right now).</p><hr><h3 id="JanusWeb-gtgt-High-Fidelity" style=""><a class="anchor hidden-xs" href="#JanusWeb-gtgt-High-Fidelity" title="JanusWeb-gtgt-High-Fidelity"><span class="octicon octicon-link"></span></a>JanusWeb &gt;&gt; High Fidelity</h3><p>When we spawned into JanusWeb, there was a <a href="https://madjin.github.io/janus-guide/#/examples/components?id=teleporter" target="_blank" rel="noopener">teleporter</a> already setup in the room with the URL to open <a href="hifi://tin-land" target="_blank" rel="noopener">hifi://tin-land</a>.</p><p>In order to use the protocol handler in the first place, users had to run High Fidelity atleast once. Flying into the teleporter launched the world put us in a blank room in JanusWeb while High Fidelity launched.</p><p><img src="https://i.imgur.com/EBO33Ge.jpg" alt=""></p><p>You can link to specific locations (XYZ) in High Fidelity with a link such as <a href="hifi://makerbox/-39.9882,0.176166,-43.5439/0,0.995315,0,-0.0966881" target="_blank" rel="noopener">hifi://makerbox/-39.9882,0.176166,-43.5439/0,0.995315,0,-0.0966881</a>.</p><p><strong>What is communicated between the worlds?</strong></p><p>We did not carry any data with us when traversing between platforms.</p><hr><h3 id="High-Fidelity-gtgt-VRChat" style=""><a class="anchor hidden-xs" href="#High-Fidelity-gtgt-VRChat" title="High-Fidelity-gtgt-VRChat"><span class="octicon octicon-link"></span></a>High Fidelity &gt;&gt; VRChat</h3><p>At this point, a lot of background applications and tabs were open (Anarchy Arcade, Hubs, JanusWeb, Cryptovoxels, JanusWeb again). There was a <a href="https://vrchat.net/home/launch?worldId=wrld_78373831-0109-4808-9b63-27382f4c6975" target="_blank" rel="noopener">web page</a> with a profile page of a public VRChat world that contained a launch button.</p><p><img src="https://i.imgur.com/9mghR1r.jpg" alt=""></p><p>Only people with good computers were able to survive this transition because we were about to launch VRChat while High Fidelity was running, along with all the other background applications still there.</p><h4 id="High-Fidelity-Survey"><a class="anchor hidden-xs" href="#High-Fidelity-Survey" title="High-Fidelity-Survey"><span class="octicon octicon-link"></span></a>High Fidelity Survey</h4><p><strong>What is communicated between the worlds?</strong></p><p>The destination that we wanted to go to (server and spawn position) was communicated from the launching app (High Fidelity) to the launched app (VRChat) which allowed us to bypass menus.</p><p>The VRChat world always had a default spawn position. Our steam identity was carried over from High Fidelity to VRChat as a login option.</p><p><strong>What are these worlds made out of?</strong></p><p>High Fidelity worlds are made with custom models, often using Blender, then ported into High Fidelity using their Blender plugin or in-world create tool which allows users to spawn objects. The scene is described using JSON.</p><p><strong>Who created the content we are consuming? Users? Pros?</strong></p><p>The worlds are often created by users, although there is a learning curve involved with authoring your own worlds because you have to setup your own domain.</p><p><strong>How easy was it for them to do it?</strong></p><p>It’s hard.</p><p><strong>What tools were they likely using?</strong></p><p>Most often <a href="https://www.blender.org/2-8/" target="_blank" rel="noopener">Blender</a> is used and there is a <a href="https://github.com/Menithal/Blender-Hifi-Addon" target="_blank" rel="noopener">Blender plugin</a> for porting content into High Fidelity.</p><p>The in-world editor system is new and not very easy to use, although it does have a gizmo that many 3D artists are familiar with using.</p><p><strong>Were they happy with what they created?</strong></p><p>Yeah, the world’s are a temple of accomplishment and self expression for the domain owners. The higher the investment, the greater the reward.</p><p><strong>What kind of system powers the distribution of their creations when we join the server?</strong></p><p>High Fidelity worlds are self-hosted on a federated network.</p><hr><h3 id="VRChat-gtgt-Anarchy-Arcade" style=""><a class="anchor hidden-xs" href="#VRChat-gtgt-Anarchy-Arcade" title="VRChat-gtgt-Anarchy-Arcade"><span class="octicon octicon-link"></span></a>VRChat &gt;&gt; Anarchy Arcade</h3><p>VRChat is the final destination on the world-hopping trip and 4 people made it through to the end. This is because of the high demand of the host computer since not all of the background applications were optimized like Anarchy Arcade was.</p><p><img src="https://i.imgur.com/7HLavYk.jpg" alt=""></p><p>However, we made it through a continuous path into all of the social VR capable platforms on our list! The current state of traversal between disparate virtual worlds is a bumpy ride with few applications making an effort to make it a smooth transition.</p><p>VRChat is a dead end in terms of launching other apps but you can explore the VRChat universe by spawning portals from here into other user-generated VRC worlds.</p><p>Thus, to get back to Anarchy Arcade we alt-f4’d from VRChat.</p><h4 id="VRChat-Survey"><a class="anchor hidden-xs" href="#VRChat-Survey" title="VRChat-Survey"><span class="octicon octicon-link"></span></a>VRChat Survey</h4><p><strong>What is communicated between the worlds?</strong></p><p>Nothing was communicated between VRchat and Anarchy Arcade between the transition, you were either logged in steam or not so no real change.</p><p><strong>What are these worlds made out of?</strong></p><p>VRChat worlds are made in Unity then uploaded to VRChat’s servers using their SDK.</p><p><strong>Who created the content we are consuming? Users? Pros?</strong></p><p>A mix of users and professionals build the maps in VRChat.</p><p><strong>How easy was it for them to do it?</strong></p><p>There’s a learning curve involved with creating your scene in Unity. If one already has a scene in Unity, the simplest path to uploading to VRChat is described in <a href="https://github.com/madjin/awesome-vrchat/blob/master/guides/worlds/basicworlds.md" target="_blank" rel="noopener">this guide</a>.</p><p><strong>What tools were they likely using?</strong></p><p>Most often Blender for modeling and Unity3D for scene creation.</p><p><strong>Were they happy with what they created?</strong></p><p>Yes because they create and can share their worlds with a large community of users on desktop and VR headsets.</p><p><strong>What kind of system powers the distribution of their creations when we join the server?</strong></p><p>The VRChat servers that users upload their worlds and avatars to are centralized but each world has a 2D web profile page that can be shared to launch the native application.</p><hr><h2 id="Final-Notes" style=""><a class="anchor hidden-xs" href="#Final-Notes" title="Final-Notes"><span class="octicon octicon-link"></span></a>Final Notes</h2><p>We were communicating over Discord’s voice chat the entire time.</p><p>Anarchy Arcade served as the most premium base reality we ventured to on this trip for several main reasons:</p><ul>
+<li>Shortcuts were easy to launch</li>
+<li>Universally compatible</li>
+<li>Optimized heavily in the background</li>
+</ul><p>Shortcuts examples for each platform:</p><ul>
+<li>Anarchy Arcade
+<ul>
+<li><code>steam://run/266430//+join lobby81</code></li>
+</ul>
+</li>
+<li>Hubs
+<ul>
+<li><code>https://hubs.mozilla.com/SbDZKaS/talkative-remarkable-adventure</code></li>
+</ul>
+</li>
+<li>JanusWeb
+<ul>
+<li><code>https://vesta.janusvr.com/bepis/vrcade</code></li>
+</ul>
+</li>
+<li>Cryptovoxels
+<ul>
+<li><code>https://www.cryptovoxels.com/play?coords=N@214E,3U,29S</code></li>
+</ul>
+</li>
+<li>Anyland
+<ul>
+<li><code>steam://run/505700//retrosunset</code></li>
+</ul>
+</li>
+<li>High Fidelity
+<ul>
+<li><code>hifi://makerbox/-39.9882,0.176166,-43.5439/0,0.995315,0,-0.0966881</code></li>
+</ul>
+</li>
+<li>VRChat
+<ul>
+<li><code>vrchat://launch?id=wrld_b51f016d-1073-4c75-930d-9f44222c7fc3</code></li>
+</ul>
+</li>
+</ul><hr><p>to-do:</p><ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled"><label></label>Edit video clips</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled"><label></label>Explain why this is important</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled"><label></label>Elaborate on how interoperability benefits parties</li>
+</ul></div>
+    <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
+        <div class="pull-right dropdown">
+            <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
+                <div class="toc"><ul class="nav">
+<li><a href="#world-traversal" title="world-traversal">world-traversal</a></li>
+<li class=""><a href="#Cross-linking-Virtual-Worlds-Pt-2" title="Cross-linking Virtual Worlds Pt. 2">Cross-linking Virtual Worlds Pt. 2</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#What-do-we-want-to-communicate-between-worlds" title="What do we want to communicate between worlds?">What do we want to communicate between worlds?</a></li>
+</ul>
+</li>
+<li class=""><a href="#The-Path" title="The Path">The Path</a><ul class="nav">
+<li><a href="#Anarchy-Arcade-gtgt-Hubs" title="Anarchy Arcade >> Hubs">Anarchy Arcade &gt;&gt; Hubs</a></li>
+<li><a href="#Hubs-gtgt-JanusWeb" title="Hubs >> JanusWeb">Hubs &gt;&gt; JanusWeb</a></li>
+<li><a href="#JanusWeb-gtgt-Cryptovoxels" title="JanusWeb >> Cryptovoxels">JanusWeb &gt;&gt; Cryptovoxels</a></li>
+<li><a href="#Cryptovoxels-gtgt-Anyland" title="Cryptovoxels >> Anyland">Cryptovoxels &gt;&gt; Anyland</a></li>
+<li><a href="#Anyland-gtgt-Cryptovoxels" title="Anyland >> Cryptovoxels">Anyland &gt;&gt; Cryptovoxels</a></li>
+<li><a href="#Cryptovoxels-gtgt-JanusWeb" title="Cryptovoxels >> JanusWeb">Cryptovoxels &gt;&gt; JanusWeb</a></li>
+<li><a href="#JanusWeb-gtgt-High-Fidelity" title="JanusWeb >> High Fidelity">JanusWeb &gt;&gt; High Fidelity</a></li>
+<li><a href="#High-Fidelity-gtgt-VRChat" title="High Fidelity >> VRChat">High Fidelity &gt;&gt; VRChat</a></li>
+<li class=""><a href="#VRChat-gtgt-Anarchy-Arcade" title="VRChat >> Anarchy Arcade">VRChat &gt;&gt; Anarchy Arcade</a></li>
+</ul>
+</li>
+<li class=""><a href="#Final-Notes" title="Final Notes">Final Notes</a></li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+            </ul>
+        </div>
+    </div>
+    <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="top:17px;display:none;" null null>
+        <div class="toc"><ul class="nav">
+<li><a href="#world-traversal" title="world-traversal">world-traversal</a></li>
+<li class=""><a href="#Cross-linking-Virtual-Worlds-Pt-2" title="Cross-linking Virtual Worlds Pt. 2">Cross-linking Virtual Worlds Pt. 2</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#What-do-we-want-to-communicate-between-worlds" title="What do we want to communicate between worlds?">What do we want to communicate between worlds?</a></li>
+</ul>
+</li>
+<li class=""><a href="#The-Path" title="The Path">The Path</a><ul class="nav">
+<li><a href="#Anarchy-Arcade-gtgt-Hubs" title="Anarchy Arcade >> Hubs">Anarchy Arcade &gt;&gt; Hubs</a></li>
+<li><a href="#Hubs-gtgt-JanusWeb" title="Hubs >> JanusWeb">Hubs &gt;&gt; JanusWeb</a></li>
+<li><a href="#JanusWeb-gtgt-Cryptovoxels" title="JanusWeb >> Cryptovoxels">JanusWeb &gt;&gt; Cryptovoxels</a></li>
+<li><a href="#Cryptovoxels-gtgt-Anyland" title="Cryptovoxels >> Anyland">Cryptovoxels &gt;&gt; Anyland</a></li>
+<li><a href="#Anyland-gtgt-Cryptovoxels" title="Anyland >> Cryptovoxels">Anyland &gt;&gt; Cryptovoxels</a></li>
+<li><a href="#Cryptovoxels-gtgt-JanusWeb" title="Cryptovoxels >> JanusWeb">Cryptovoxels &gt;&gt; JanusWeb</a></li>
+<li><a href="#JanusWeb-gtgt-High-Fidelity" title="JanusWeb >> High Fidelity">JanusWeb &gt;&gt; High Fidelity</a></li>
+<li><a href="#High-Fidelity-gtgt-VRChat" title="High Fidelity >> VRChat">High Fidelity &gt;&gt; VRChat</a></li>
+<li class=""><a href="#VRChat-gtgt-Anarchy-Arcade" title="VRChat >> Anarchy Arcade">VRChat &gt;&gt; Anarchy Arcade</a></li>
+</ul>
+</li>
+<li class=""><a href="#Final-Notes" title="Final Notes">Final Notes</a></li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.6.0/gist-embed.min.js" integrity="sha256-KyF2D6xPIJUW5sUDSs93vWyZm+1RzIpKCexxElmxl8g=" crossorigin="anonymous" defer></script>
+    <script>
+        var markdown = $(".markdown-body");
+        //smooth all hash trigger scrolling
+        function smoothHashScroll() {
+            var hashElements = $("a[href^='#']").toArray();
+            for (var i = 0; i < hashElements.length; i++) {
+                var element = hashElements[i];
+                var $element = $(element);
+                var hash = element.hash;
+                if (hash) {
+                    $element.on('click', function (e) {
+                        // store hash
+                        var hash = this.hash;
+                        if ($(hash).length <= 0) return;
+                        // prevent default anchor click behavior
+                        e.preventDefault();
+                        // animate
+                        $('body, html').stop(true, true).animate({
+                            scrollTop: $(hash).offset().top
+                        }, 100, "linear", function () {
+                            // when done, add hash to url
+                            // (default click behaviour)
+                            window.location.hash = hash;
+                        });
+                    });
+                }
+            }
+        }
+
+        smoothHashScroll();
+        var toc = $('.ui-toc');
+        var tocAffix = $('.ui-affix-toc');
+        var tocDropdown = $('.ui-toc-dropdown');
+        //toc
+        tocDropdown.click(function (e) {
+            e.stopPropagation();
+        });
+
+        var enoughForAffixToc = true;
+
+        function generateScrollspy() {
+            $(document.body).scrollspy({
+                target: ''
+            });
+            $(document.body).scrollspy('refresh');
+            if (enoughForAffixToc) {
+                toc.hide();
+                tocAffix.show();
+            } else {
+                tocAffix.hide();
+                toc.show();
+            }
+            $(document.body).scroll();
+        }
+
+        function windowResize() {
+            //toc right
+            var paddingRight = parseFloat(markdown.css('padding-right'));
+            var right = ($(window).width() - (markdown.offset().left + markdown.outerWidth() - paddingRight));
+            toc.css('right', right + 'px');
+            //affix toc left
+            var newbool;
+            var rightMargin = (markdown.parent().outerWidth() - markdown.outerWidth()) / 2;
+            //for ipad or wider device
+            if (rightMargin >= 133) {
+                newbool = true;
+                var affixLeftMargin = (tocAffix.outerWidth() - tocAffix.width()) / 2;
+                var left = markdown.offset().left + markdown.outerWidth() - affixLeftMargin;
+                tocAffix.css('left', left + 'px');
+            } else {
+                newbool = false;
+            }
+            if (newbool != enoughForAffixToc) {
+                enoughForAffixToc = newbool;
+                generateScrollspy();
+            }
+        }
+        $(window).resize(function () {
+            windowResize();
+        });
+        $(document).ready(function () {
+            windowResize();
+            generateScrollspy();
+        });
+
+        //remove hash
+        function removeHash() {
+            window.location.hash = '';
+        }
+
+        var backtotop = $('.back-to-top');
+        var gotobottom = $('.go-to-bottom');
+
+        backtotop.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToTop)
+                scrollToTop();
+            removeHash();
+        });
+        gotobottom.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToBottom)
+                scrollToBottom();
+            removeHash();
+        });
+
+        var toggle = $('.expand-toggle');
+        var tocExpand = false;
+
+        checkExpandToggle();
+        toggle.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            tocExpand = !tocExpand;
+            checkExpandToggle();
+        })
+
+        function checkExpandToggle () {
+            var toc = $('.ui-toc-dropdown .toc');
+            var toggle = $('.expand-toggle');
+            if (!tocExpand) {
+                toc.removeClass('expand');
+                toggle.text('Expand all');
+            } else {
+                toc.addClass('expand');
+                toggle.text('Collapse all');
+            }
+        }
+
+        function scrollToTop() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: 0
+            }, 100, "linear");
+        }
+
+        function scrollToBottom() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: $(document.body)[0].scrollHeight
+            }, 100, "linear");
+        }
+    </script>
+</body>
+
+</html>
