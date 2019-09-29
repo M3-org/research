@@ -35,7 +35,7 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
 
 We've gathered an incredible cast of lead developers building VR platforms to discuss virtual economies. How can creative people make a living inside these worlds? What ingredients are missing to catalyze a thriving user-generated content economy? What's the landscape look like? How can startups compete with big tech? 
 
-![](https://i.gyazo.com/0a2e58a4aa3606404cda9a95adb8e207.gif)
+![](https://i.imgur.com/wNqTzGW.jpg)
 
 Tune in to hear about what's around the corner and what excites these veteran VR developers in this riveting discussion filmed inside a virtual reality studio!
 
