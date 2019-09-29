@@ -10,13 +10,13 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
 
 #### **Table of Contents**
  
-- [**Virtual World Economy Panel**](https://m3-org.github.io/research/#Virtual-World-Panel)
+- [**Virtual World Economy Panel**](https://github.com/M3-org/research#virtual-world-economy-panel)
     - [Write-up](https://m3-org.github.io/research/panel.html)
-- [**Virtual Market 3 Field Trip**](https://m3-org.github.io/research/#Virtual-Market-3-Field-Trip)
+- [**Virtual Market 3 Field Trip**](https://github.com/M3-org/research#virtual-market-3-field-trip)
     - [Write-up](https://m3-org.github.io/research/vket.html)
-- [**Traversing Disparate Virtual Worlds**](https://m3-org.github.io/research/#Traversing-Disparate-Virtual-Worlds)
+- [**Traversing Disparate Virtual Worlds**](https://github.com/M3-org/research#traversing-disparate-virtual-worlds)
     - [Write-up](https://m3-org.github.io/research/worldhop.html)
-- [**Previous Meetups**](https://m3-org.github.io/research/#Previous-Meets) 
+- [**Previous Meetups**](https://github.com/M3-org/research#previous-meets) 
     - [2019-05-02](https://github.com/M3-org/schedule/tree/master/2019-05-02)
     - [2019-05-16](https://github.com/M3-org/schedule/tree/master/2019-05-16)
     - [2019-06-02](https://github.com/M3-org/schedule/tree/master/2019-06-02)
