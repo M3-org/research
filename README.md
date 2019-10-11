@@ -28,6 +28,7 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
     - [2019-08-25](https://github.com/M3-org/schedule/tree/master/2019-08-25)
     - [2019-09-08](https://github.com/M3-org/schedule/tree/master/2019-09-08)
     - [2019-09-22](https://github.com/M3-org/schedule/tree/master/2019-09-22)
+    - [2019-10-06](https://github.com/M3-org/schedule/tree/master/2019-10-06)
 
 ---
 
@@ -90,3 +91,4 @@ M3 meets every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 meet ha
 - [ ] [2019-08-25](https://github.com/M3-org/schedule/tree/master/2019-08-25) - Digital Identity / WebVR History / X Webpages in VR / Browser Inception
 - [ ] [2019-09-08](https://github.com/M3-org/schedule/tree/master/2019-09-08) - Create and Sell NFTs / Metaverse Browser Tech / Virtual Panel Recap
 - [ ] [2019-09-22](https://github.com/M3-org/schedule/tree/master/2019-09-22) - Construct Arcade / UX Principles / Virtual Market Recap
+- [ ] [2019-10-06](https://github.com/M3-org/schedule/tree/master/2019-10-06) - Charter / State of Exokit / Story of AArcade / Future of M3
