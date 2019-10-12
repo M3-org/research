@@ -2,6 +2,8 @@
 
 This is a place for collaborative research on the open metaverse. Feel free to be creative.
 
+New here? Read the charter to see what we're about: https://github.com/M3-org/charter
+
 ![](https://i.imgur.com/7MVQZ8H.jpg)
 
 Have an idea? There are separate opportunities from the bi-weekly gatherings to conduct collaborative field research with the [M3 organization](https://github.com/M3-org) by opening issues to form your proposal.
