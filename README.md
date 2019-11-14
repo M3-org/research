@@ -31,6 +31,17 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
     - [2019-09-08](https://github.com/M3-org/schedule/tree/master/2019-09-08)
     - [2019-09-22](https://github.com/M3-org/schedule/tree/master/2019-09-22)
     - [2019-10-06](https://github.com/M3-org/schedule/tree/master/2019-10-06)
+    - [2019-10-20](https://github.com/M3-org/schedule/tree/master/2019-10-20)
+
+---
+
+### Tim Sweeney's and the Metaverse
+
+We've transcribed Tim Sweeney's epic talk from SIGGRAPH 2019, THRIVE: Foundational Principles & Technologies for the Metaverse, and timestamped the interesting parts for discussion. Currently in progress!
+
+- Link to proposal: <https://github.com/M3-org/research/issues/5>
+- Link to audio: <https://soundcloud.com/siggraph-spotlight/30-tim-sweeney-and-the-metaverse>
+- Link to transcript: <https://m3-org.github.io/research/sweeney.html>
 
 ---
 
