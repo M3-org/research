@@ -39,9 +39,11 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
 
 We've transcribed Tim Sweeney's epic talk from SIGGRAPH 2019, THRIVE: Foundational Principles & Technologies for the Metaverse, and timestamped the interesting parts for discussion. Currently in progress!
 
+![](https://i.imgur.com/Vgd3qxD.jpg)
+
 - Link to proposal: <https://github.com/M3-org/research/issues/5>
 - Link to audio: <https://soundcloud.com/siggraph-spotlight/30-tim-sweeney-and-the-metaverse>
-- Link to transcript: <https://m3-org.github.io/research/sweeney.html>
+- Link to transcript: <https://github.com/M3-org/research/blob/master/sweeney.md>
 
 ---
 
