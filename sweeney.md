@@ -16,8 +16,6 @@ Speed read video (13 minutes): <https://vimeo.com/373079933>
 
 ## Table of Contents
 
-https://github.com/M3-org/research/blob/master/README.md#research
-
 - [03:20](https://github.com/M3-org/research/blob/master/sweeney.md#Purpose) - Purpose
 - [07:27](https://github.com/M3-org/research/blob/master/sweeney.md#Web-Standards) - Web standards
 - [09:24](https://github.com/M3-org/research/blob/master/sweeney.md#File-Formats) - File Formats
