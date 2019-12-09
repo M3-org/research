@@ -35,7 +35,7 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
 
 ---
 
-### Tim Sweeney's and the Metaverse
+### Tim Sweeney Open Metaverse
 
 We've transcribed Tim Sweeney's epic talk from SIGGRAPH 2019, THRIVE: Foundational Principles & Technologies for the Metaverse, and timestamped the interesting parts for discussion. Currently in progress!
 
