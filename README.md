@@ -57,6 +57,7 @@ Tune in to hear about what's around the corner and what excites these veteran VR
 
 - Link to proposal: <https://github.com/M3-org/proposals/issues/6>
 - Link to write-up: <https://m3-org.github.io/research/panel.html>
+- Link to video: <https://www.youtube.com/watch?v=WAhPut6YKdE>
 
 ---
 
