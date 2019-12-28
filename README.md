@@ -12,26 +12,35 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
 
 #### **Table of Contents**
  
+- [**Tim Sweeney Open Metaverse**](https://github.com/M3-org/research/#tim-sweeney-open-metaverse)
+    - [Proposal](https://github.com/M3-org/research/issues/5)
 - [**Virtual World Economy Panel**](https://github.com/M3-org/research#virtual-world-economy-panel)
     - [Write-up](https://m3-org.github.io/research/panel.html)
 - [**Virtual Market 3 Field Trip**](https://github.com/M3-org/research#virtual-market-3-field-trip)
     - [Write-up](https://m3-org.github.io/research/vket.html)
 - [**Traversing Disparate Virtual Worlds**](https://github.com/M3-org/research#traversing-disparate-virtual-worlds)
     - [Write-up](https://m3-org.github.io/research/worldhop.html)
-- [**Previous Meetups**](https://github.com/M3-org/research#previous-meets) 
-    - [2019-05-02](https://github.com/M3-org/schedule/tree/master/2019-05-02)
-    - [2019-05-16](https://github.com/M3-org/schedule/tree/master/2019-05-16)
-    - [2019-06-02](https://github.com/M3-org/schedule/tree/master/2019-06-02)
-    - [2019-06-16](https://github.com/M3-org/schedule/tree/master/2019-06-16)
-    - [2019-06-30](https://github.com/M3-org/schedule/tree/master/2019-06-30)
-    - [2019-07-14](https://github.com/M3-org/schedule/tree/master/2019-07-14)
-    - [2019-07-28](https://github.com/M3-org/schedule/tree/master/2019-07-28)
-    - [2019-08-11](https://github.com/M3-org/schedule/tree/master/2019-08-11)
-    - [2019-08-25](https://github.com/M3-org/schedule/tree/master/2019-08-25)
-    - [2019-09-08](https://github.com/M3-org/schedule/tree/master/2019-09-08)
-    - [2019-09-22](https://github.com/M3-org/schedule/tree/master/2019-09-22)
-    - [2019-10-06](https://github.com/M3-org/schedule/tree/master/2019-10-06)
-    - [2019-10-20](https://github.com/M3-org/schedule/tree/master/2019-10-20)
+    
+---
+
+### Previous Meets
+
+M3 meets every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 meet has a full write-up along with the archived agenda, full livestream VOD, clips of individual lightning talks and discussions, images taken in Hubs, and Hubs text log from Discord. 
+
+> The checkmarks signal whether or not the meet has a completed write-up yet.
+
+- [x] [2019-05-02](https://github.com/M3-org/schedule/tree/master/2019-05-02) - How to Not Build a Metaverse / Cross-linking Worlds / What is a Shortcut?
+- [x] [2019-05-16](https://github.com/M3-org/schedule/tree/master/2019-05-16) - Past Metaverse Attempts / Permissionless Innovation for VR / Teaching by Metaversing
+- [x] [2019-06-02](https://github.com/M3-org/schedule/tree/master/2019-06-02) - Local-first Cyberspace / Incentives / World Traversal Recap
+- [x] [2019-06-16](https://github.com/M3-org/schedule/tree/master/2019-06-16) - Mozilla Hubs / Editing XR in XR / Cryptovoxels
+- [ ] [2019-06-30](https://github.com/M3-org/schedule/tree/master/2019-06-30) - Long Discussion on Monetization
+- [ ] [2019-07-14](https://github.com/M3-org/schedule/tree/master/2019-07-14) - Grid City Collab / Linking Spatial Websites / Monetization Landscape of VR/AR Metaverse
+- [ ] [2019-07-28](https://github.com/M3-org/schedule/tree/master/2019-07-28) - Exokit Frontend
+- [ ] [2019-08-11](https://github.com/M3-org/schedule/tree/master/2019-08-11) - Discussion of Metaverse Talk by Tim Sweeney at Siggraph
+- [ ] [2019-08-25](https://github.com/M3-org/schedule/tree/master/2019-08-25) - Digital Identity / WebVR History / X Webpages in VR / Browser Inception
+- [ ] [2019-09-08](https://github.com/M3-org/schedule/tree/master/2019-09-08) - Create and Sell NFTs / Metaverse Browser Tech / Virtual Panel Recap
+- [ ] [2019-09-22](https://github.com/M3-org/schedule/tree/master/2019-09-22) - Construct Arcade / UX Principles / Virtual Market Recap
+- [ ] [2019-10-06](https://github.com/M3-org/schedule/tree/master/2019-10-06) - Charter / State of Exokit / Story of AArcade / Future of M3
 
 ---
 
@@ -86,25 +95,3 @@ The [M3 org](https://github.com/M3-org) did a field test to observe what the cur
 
 - Link to proposal: <https://github.com/M3-org/proposals/issues/4>
 - Link to write-up: <https://m3-org.github.io/research/worldhop.html>
-
-
----
-
-### Previous Meets
-
-M3 meets every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 meet has a full write-up along with the archived agenda, full livestream VOD, clips of individual lightning talks and discussions, images taken in Hubs, and Hubs text log from Discord. 
-
-> The checkmarks signal whether or not the meet has a completed write-up yet.
-
-- [x] [2019-05-02](https://github.com/M3-org/schedule/tree/master/2019-05-02) - How to Not Build a Metaverse / Cross-linking Worlds / What is a Shortcut?
-- [x] [2019-05-16](https://github.com/M3-org/schedule/tree/master/2019-05-16) - Past Metaverse Attempts / Permissionless Innovation for VR / Teaching by Metaversing
-- [x] [2019-06-02](https://github.com/M3-org/schedule/tree/master/2019-06-02) - Local-first Cyberspace / Incentives / World Traversal Recap
-- [x] [2019-06-16](https://github.com/M3-org/schedule/tree/master/2019-06-16) - Mozilla Hubs / Editing XR in XR / Cryptovoxels
-- [ ] [2019-06-30](https://github.com/M3-org/schedule/tree/master/2019-06-30) - Long Discussion on Monetization
-- [ ] [2019-07-14](https://github.com/M3-org/schedule/tree/master/2019-07-14) - Grid City Collab / Linking Spatial Websites / Monetization Landscape of VR/AR Metaverse
-- [ ] [2019-07-28](https://github.com/M3-org/schedule/tree/master/2019-07-28) - Exokit Frontend
-- [ ] [2019-08-11](https://github.com/M3-org/schedule/tree/master/2019-08-11) - Discussion of Metaverse Talk by Tim Sweeney at Siggraph
-- [ ] [2019-08-25](https://github.com/M3-org/schedule/tree/master/2019-08-25) - Digital Identity / WebVR History / X Webpages in VR / Browser Inception
-- [ ] [2019-09-08](https://github.com/M3-org/schedule/tree/master/2019-09-08) - Create and Sell NFTs / Metaverse Browser Tech / Virtual Panel Recap
-- [ ] [2019-09-22](https://github.com/M3-org/schedule/tree/master/2019-09-22) - Construct Arcade / UX Principles / Virtual Market Recap
-- [ ] [2019-10-06](https://github.com/M3-org/schedule/tree/master/2019-10-06) - Charter / State of Exokit / Story of AArcade / Future of M3
