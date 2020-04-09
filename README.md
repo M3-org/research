@@ -12,6 +12,8 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
 
 #### **Table of Contents**
  
+- [**Blockchain Virtual Worlds**](https://github.com/M3-org/research#blockchain-virtual-worlds)
+    - [Proposal](https://github.com/M3-org/proposals/issues/9/)
 - [**Tim Sweeney Open Metaverse**](https://github.com/M3-org/research/#tim-sweeney-open-metaverse)
     - [Proposal](https://github.com/M3-org/research/issues/5)
 - [**Virtual World Economy Panel**](https://github.com/M3-org/research#virtual-world-economy-panel)
