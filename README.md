@@ -41,8 +41,23 @@ M3 meets every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 meet ha
 - [ ] [2019-09-08](https://github.com/M3-org/schedule/tree/master/2019-09-08) - Create and Sell NFTs / Metaverse Browser Tech / Virtual Panel Recap
 - [ ] [2019-09-22](https://github.com/M3-org/schedule/tree/master/2019-09-22) - Construct Arcade / UX Principles / Virtual Market Recap
 - [ ] [2019-10-06](https://github.com/M3-org/schedule/tree/master/2019-10-06) - Charter / State of Exokit / Story of AArcade / Future of M3
+- [ ] [2019-10-20](https://github.com/M3-org/schedule/tree/master/2019-10-20) - Designing VR apps to target a wide range of input devices / WebXR Avatars
+- [ ] [2020-01-28](https://github.com/M3-org/schedule/tree/master/2020-01-28) - AR in VR tech and retrospective
+- [ ] [2020-03-21](https://github.com/M3-org/schedule/tree/master/2020-03-21) - VR conferences / Free association in the Metaverse / Metachromium demo
+- [ ] [2020-04-04](https://github.com/M3-org/schedule/tree/master/2020-04-04) - Blockchain = true Metaverse / Universal Cyberspace Hardware / Makepad / Workflow for Interdimensional trade
+
 
 ---
+
+### Blockchain Virtual Worlds
+
+Research field trip today exploring and discussing blockchain virtual worlds [Decentraland](https://decentraland.org), [Cryptovoxels](https://cryptovoxels.com), and [Somnium Space](https://somniumspace.com).
+
+![](https://i.imgur.com/m3lxPaG.jpg)
+
+- Link to proposal: <https://github.com/M3-org/proposals/issues/9/>
+- Link to video: coming soon
+- Link to write-up: coming soon
 
 ### Tim Sweeney Open Metaverse
 
