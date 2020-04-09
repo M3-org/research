@@ -61,6 +61,8 @@ Research field trip today exploring and discussing blockchain virtual worlds [De
 - Link to video: coming soon
 - Link to write-up: coming soon
 
+---
+
 ### Tim Sweeney Open Metaverse
 
 We've transcribed Tim Sweeney's epic talk from SIGGRAPH 2019, THRIVE: Foundational Principles & Technologies for the Metaverse, and timestamped the interesting parts for discussion. Currently in progress!
