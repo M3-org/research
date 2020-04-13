@@ -100,6 +100,7 @@ The [M3 org](https://github.com/M3-org/schedule) went on a field trip to explore
 - Link to proposal: <https://github.com/M3-org/research/issues/2>
 - Link to write-up: <https://m3-org.github.io/research/vket.html>
 - Link to video: <https://www.youtube.com/watch?v=SkLZNNVgSkw>
+- Link to image album: <https://imgur.com/a/sAzgyya>
 
 ---
 
