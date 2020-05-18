@@ -52,6 +52,18 @@ M3 meets every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 meet ha
 
 ---
 
+### Virtual Market 4 Field Trip
+
+We return to [Virtual Market](https://twitter.com/Virtual_Market_) 6 months after Vket3 which had 600 visitors drew 700k visitors to 14 worlds. Since then, Vket4 has grown to 1400 exhibitors across 43 worlds and has earned the title of the world's largest virtual expo. Our group explored these worlds while taking virtual photography, sampling AR overlays, and discussing topics about the virtual economy for UGC and avatar creations.
+
+![](https://i.imgur.com/pINg99l.jpg)
+
+- Link to proposal: <https://github.com/M3-org/research/issues/7>
+- Link to video: coming soon
+- Link to write-up: coming soon
+
+---
+
 ### Blockchain Virtual Worlds
 
 Research field trip today exploring and discussing blockchain virtual worlds [Decentraland](https://decentraland.org), [Cryptovoxels](https://cryptovoxels.com), and [Somnium Space](https://somniumspace.com).
