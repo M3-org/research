@@ -22,7 +22,7 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
     - [Write-up](https://m3-org.github.io/research/vket.html)
 - [**Traversing Disparate Virtual Worlds**](https://github.com/M3-org/research#traversing-disparate-virtual-worlds)
     - [Write-up](https://m3-org.github.io/research/worldhop.html)
-    
+
 ---
 
 ### Previous Meets
@@ -60,7 +60,8 @@ We return to [Virtual Market](https://twitter.com/Virtual_Market_) 6 months afte
 
 - Link to proposal: <https://github.com/M3-org/research/issues/7>
 - Link to video: coming soon
-- Link to write-up: coming soon
+- Link to write-up: <https://m3-org.github.io/research/vket4.html>
+- Link to image album: <https://imgur.com/a/vnEDNui>
 
 ---
 
