@@ -59,7 +59,7 @@ We return to [Virtual Market](https://twitter.com/Virtual_Market_) 6 months afte
 ![](https://i.imgur.com/pINg99l.jpg)
 
 - Link to proposal: <https://github.com/M3-org/research/issues/7>
-- Link to video: coming soon
+- Link to video: <https://www.youtube.com/watch?v=5rWIHBAbyVA>
 - Link to write-up: <https://m3-org.github.io/research/vket4.html>
 - Link to image album: <https://imgur.com/a/vnEDNui>
 
