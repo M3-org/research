@@ -73,7 +73,7 @@ Research field trip today exploring and discussing blockchain virtual worlds [De
 
 - Link to proposal: <https://github.com/M3-org/proposals/issues/9/>
 - Link to video: <https://www.youtube.com/watch?v=hv9Cl7yt-60>
-- Link to write-up: coming soon
+- Link to write-up: <https://m3-org.github.io/research/blockchainvr.html>
 
 ---
 
