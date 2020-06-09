@@ -69,7 +69,7 @@ We return to [Virtual Market](https://twitter.com/Virtual_Market_) 6 months afte
 
 Research field trip today exploring and discussing blockchain virtual worlds [Decentraland](https://decentraland.org), [Cryptovoxels](https://cryptovoxels.com), and [Somnium Space](https://somniumspace.com).
 
-![](https://i.imgur.com/m3lxPaG.jpg)
+![](https://i.imgur.com/NWlIzFA.jpg)
 
 - Link to proposal: <https://github.com/M3-org/proposals/issues/9/>
 - Link to video: <https://www.youtube.com/watch?v=hv9Cl7yt-60>
