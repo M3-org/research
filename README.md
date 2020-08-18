@@ -12,7 +12,7 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
 
 #### **Table of Contents**
  
-- [**Virtual Market 4 Field Trip](https://github.com/M3-org/research#virtual-market-4-field-trip)
+- [**Virtual Market 4 Field Trip**](https://github.com/M3-org/research#virtual-market-4-field-trip)
     - [Write-up](https://m3-org.github.io/research/vket4.html)
 - [**Blockchain Virtual Worlds**](https://github.com/M3-org/research#blockchain-virtual-worlds)
     - [Proposal](https://github.com/M3-org/proposals/issues/9/)
