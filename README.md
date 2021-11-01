@@ -50,7 +50,7 @@ M3 meets every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 meet ha
 - [ ] [2020-03-21](https://github.com/M3-org/schedule/tree/master/2020-03-21) - VR conferences / Free association in the Metaverse / Metachromium demo
 - [ ] [2020-04-04](https://github.com/M3-org/schedule/tree/master/2020-04-04) - Blockchain = true Metaverse / Universal Cyberspace Hardware / Makepad / Workflow for Interdimensional trade
 - [ ] [2020-04-25](https://github.com/M3-org/schedule/tree/master/2020-04-25) - Metaverse News / Reality Bending / Virtual Events / Vket (Virtual Market)
-
+- [ ] 2020-10-17 - [NFT Hub](https://www.youtube.com/watch?v=WYRDnYIZyx0) / [Metamask Firefox Reality](https://www.youtube.com/watch?v=x1lpn2wJr94) / [Liquid Work (web3xr)](https://www.youtube.com/watch?v=Eq_20-TBgBw)
 
 ---
 
