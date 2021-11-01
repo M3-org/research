@@ -54,6 +54,16 @@ M3 meets every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 meet ha
 
 ---
 
+### Composability Panel
+
+The first episode of a web series to bring web3 and VR developers to talk about building the Metaverse. The topic of this episode is about composability and features [@bai](https://twitter.com/bai0) (JanusXR), [@webmixedreality](https://twitter.com/webmixedreality) (Webaverse), [@toxsam](https://twitter.com/toxsam) (Polygonal Mind / Cryptoavatars), and [@META_DREAMER](https://twitter.com/META_DREAMER) (Metafactory). The show is recorded inside of a 3D scan of the Internet Archive HQ in SF interior.
+
+![](https://i.imgur.com/ZopGaqz.png)
+
+- Link to video: https://www.youtube.com/watch?v=t4IQwq47LuY
+
+---
+
 ### Virtual Market 4 Field Trip
 
 We return to [Virtual Market](https://twitter.com/Virtual_Market_) 6 months after Vket3 which had 600 visitors drew 700k visitors to 14 worlds. Since then, Vket4 has grown to 1400 exhibitors across 43 worlds and has earned the title of the world's largest virtual expo. Our group explored these worlds while taking virtual photography, sampling AR overlays, and discussing topics about the virtual economy for UGC and avatar creations.
