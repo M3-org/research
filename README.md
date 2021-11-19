@@ -29,7 +29,9 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
 
 ### Previous Meets
 
-M3 meets every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 meet has a full write-up along with the archived agenda, full livestream VOD, clips of individual lightning talks and discussions, images taken in Hubs, and Hubs text log from Discord. 
+#### M3 1.0
+
+M3 used to meet every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 meet aimed to have a full write-up along with the archived agenda, full livestream VOD, clips of individual lightning talks and discussions, images taken in Hubs, and Hubs text log from Discord. 
 
 > The checkmarks signal whether or not the meet has a completed write-up yet.
 
@@ -51,6 +53,12 @@ M3 meets every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 meet ha
 - [ ] [2020-04-04](https://github.com/M3-org/schedule/tree/master/2020-04-04) - Blockchain = true Metaverse / Universal Cyberspace Hardware / Makepad / Workflow for Interdimensional trade
 - [ ] [2020-04-25](https://github.com/M3-org/schedule/tree/master/2020-04-25) - Metaverse News / Reality Bending / Virtual Events / Vket (Virtual Market)
 - [ ] 2020-10-17 - [NFT Hub](https://www.youtube.com/watch?v=WYRDnYIZyx0) / [Metamask Firefox Reality](https://www.youtube.com/watch?v=x1lpn2wJr94) / [Liquid Work (web3xr)](https://www.youtube.com/watch?v=Eq_20-TBgBw)
+
+#### M3 2.0
+
+Currently hosting twitter spaces with hackmds open for taking notes. Twitter spaces offers lightest lift and widest reach compared to meeting and promoting a virtual world meetup with livestream. People who help receive a POAP.
+
+- [x] 20-11-12 [Challenges of Interoperability](https://hackmd.io/@XR/interop-challenges)
 
 ---
 
