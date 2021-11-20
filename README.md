@@ -54,11 +54,13 @@ M3 used to meet every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 
 - [ ] [2020-04-25](https://github.com/M3-org/schedule/tree/master/2020-04-25) - Metaverse News / Reality Bending / Virtual Events / Vket (Virtual Market)
 - [ ] 2020-10-17 - [NFT Hub](https://www.youtube.com/watch?v=WYRDnYIZyx0) / [Metamask Firefox Reality](https://www.youtube.com/watch?v=x1lpn2wJr94) / [Liquid Work (web3xr)](https://www.youtube.com/watch?v=Eq_20-TBgBw)
 
+
 #### M3 2.0
 
 Currently hosting twitter spaces with hackmds open for taking notes. Twitter spaces offers lightest lift and widest reach compared to meeting and promoting a virtual world meetup with livestream. People who help receive a POAP.
 
 - [x] 20-11-12 [Challenges of Interoperability](https://hackmd.io/@XR/interop-challenges)
+- [x] 20-11-19 [Web3XR Hackathon planning](https://hackmd.io/@XR/web3xr-hackathons) 
 
 ---
 
