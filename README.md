@@ -51,6 +51,7 @@ M3 used to meet every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 
 - [ ] [2020-01-28](https://github.com/M3-org/schedule/tree/master/2020-01-28) - AR in VR tech and retrospective
 - [ ] [2020-03-21](https://github.com/M3-org/schedule/tree/master/2020-03-21) - VR conferences / Free association in the Metaverse / Metachromium demo
 - [ ] [2020-04-04](https://github.com/M3-org/schedule/tree/master/2020-04-04) - Blockchain = true Metaverse / Universal Cyberspace Hardware / Makepad / Workflow for Interdimensional trade
+ - Highlight reel: https://youtu.be/xz4o2RS5S9Y
 - [ ] [2020-04-25](https://github.com/M3-org/schedule/tree/master/2020-04-25) - Metaverse News / Reality Bending / Virtual Events / Vket (Virtual Market)
 - [ ] 2020-10-17 - [NFT Hub](https://www.youtube.com/watch?v=WYRDnYIZyx0) / [Metamask Firefox Reality](https://www.youtube.com/watch?v=x1lpn2wJr94) / [Liquid Work (web3xr)](https://www.youtube.com/watch?v=Eq_20-TBgBw)
 
@@ -62,6 +63,7 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
 - [x] 20-11-12 [Challenges of Interoperability](https://hackmd.io/@XR/interop-challenges)
 - [x] 20-11-19 [Web3XR Hackathon planning](https://hackmd.io/@XR/web3xr-hackathons) 
 
+
 ---
 
 ### Composability Panel
@@ -71,6 +73,18 @@ The first episode of a web series to bring web3 and VR developers to talk about 
 ![](https://i.imgur.com/ZopGaqz.png)
 
 - Link to video: https://www.youtube.com/watch?v=t4IQwq47LuY
+
+---
+
+### Convergence Panel
+
+Artists are most definitely metaverse makers. Superrare held an art show in VRChat called Atlantis where giant 3D tokenized pieces were on display in an immersive underwater world. There was a side event connected to the main gallery which took you to a big gallery space with wine and cheese. Further down the hall, the space opened up to a virtual production studio set modeled after Christies auction house for a panel discussion about cryptoart and VR. 
+
+![](https://i.imgur.com/bB01eIm.png)
+
+- Link to video: <https://www.youtube.com/watch?v=g2lZ3myTsj8>
+- VRChat world: https://vrchat.com/home/launch?worldId=wrld_029da220-485e-45e5-bf3a-739801ed2028
+- Editorial about exhibit: https://editorial.superrare.co/2020/08/24/atlantis-superrare-3d-vr-art-exhibit/
 
 ---
 
