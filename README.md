@@ -60,9 +60,10 @@ M3 used to meet every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 
 
 Currently hosting twitter spaces with hackmds open for taking notes. Twitter spaces offers lightest lift and widest reach compared to meeting and promoting a virtual world meetup with livestream. People who help receive a POAP.
 
-- [x] 20-11-12 [Challenges of Interoperability](https://hackmd.io/@XR/interop-challenges)
-- [x] 20-11-19 [Web3XR Hackathon planning](https://hackmd.io/@XR/web3xr-hackathons) 
-
+- [x] 21-11-12 [Challenges of Interoperability](https://hackmd.io/@XR/interop-challenges)
+- [x] 21-11-16 [Mapping the Metaverse](https://hackmd.io/w_sUTgcpRcSKdN6Torl-WA?both)
+- [x] 21-11-19 [Web3XR Hackathon planning](https://hackmd.io/@XR/web3xr-hackathons)
+- [x] 21-12-03 [Metaversing: Freedom](https://hackmd.io/h2jF3GrsR1aqP0Z3HgKyPw)
 
 ---
 
