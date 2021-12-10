@@ -63,7 +63,8 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
 - [x] 21-11-12 [Challenges of Interoperability](https://hackmd.io/@XR/interop-challenges)
 - [x] 21-11-16 [Mapping the Metaverse](https://hackmd.io/w_sUTgcpRcSKdN6Torl-WA?both)
 - [x] 21-11-19 [Web3XR Hackathon planning](https://hackmd.io/@XR/web3xr-hackathons)
-- [x] 21-12-03 [Metaversing: Freedom](https://hackmd.io/h2jF3GrsR1aqP0Z3HgKyPw)
+- [x] 21-12-03 [Metaversing: Freedom](https://hackmd.io/@XR/metaversing-freedom)
+- [x] 21-12-10 [Metaversing: Artist Pipelines](https://hackmd.io/@XR/artist-pipelines)
 
 ---
 
