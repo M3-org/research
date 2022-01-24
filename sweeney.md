@@ -3,14 +3,15 @@
 ![](https://i.imgur.com/Vgd3qxD.jpg)
 
 
-Video: <https://www.youtube.com/watch?v=KBEg9riBc_U>
-Soundcloud: <https://soundcloud.com/siggraph-spotlight/30-tim-sweeney-and-the-metaverse>
-Kent Bye tweets: <https://i.imgur.com/CtlwDR2.jpg>
-Dana Cowley tweets: <https://i.imgur.com/wY53tKj.jpg>
+- Video: <https://www.youtube.com/watch?v=KBEg9riBc_U>
+- Soundcloud: <https://soundcloud.com/siggraph-spotlight/30-tim-sweeney-and-the-metaverse>
+- Kent Bye tweets: <https://i.imgur.com/CtlwDR2.jpg>
+- Dana Cowley tweets: <https://i.imgur.com/wY53tKj.jpg>
 
-Spreed extension: <https://chrome.google.com/webstore/detail/spreed-speed-read-the-web/ipikiaejjblmdopojhpejjmbedhlibno>
-Clean text version (for spreed): <https://hackmd.io/@XR/timsweeneyclean>
-Speed read video (13 minutes): <https://vimeo.com/373079933>
+**Speed read this transcript**
+- Spreed extension: <https://chrome.google.com/webstore/detail/spreed-speed-read-the-web/ipikiaejjblmdopojhpejjmbedhlibno>
+- Clean text version (for spreed): <https://hackmd.io/@XR/timsweeneyclean>
+- Speed read video (13 minutes): <https://vimeo.com/373079933>
 
 ---
 
