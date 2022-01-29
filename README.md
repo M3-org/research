@@ -67,6 +67,8 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
 - [x] 21-12-10 [Metaversing: Artist Pipelines](https://hackmd.io/@XR/artist-pipelines)
 - [x] 21-12-17 [Metaversing: Interop](https://hackmd.io/@XR/interop-spaces)
 - [x] 22-01-14 [Metaversing: 2022 Predictions](https://hackmd.io/@XR/2022-predictions)
+- [x] 22-01-21 [Metaversing: Big Meta](https://hackmd.io/@XR/metaversing-bigmeta)
+- [x] 22-01-28 [Metaversing: WebXR Workflows](https://hackmd.io/@XR/webxr-workflows)
 
 ---
 
