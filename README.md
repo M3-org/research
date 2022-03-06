@@ -51,7 +51,7 @@ M3 used to meet every other week on Sundays at 6pm PST in Mozilla Hubs. Each M3 
 - [ ] [2020-01-28](https://github.com/M3-org/schedule/tree/master/2020-01-28) - AR in VR tech and retrospective
 - [ ] [2020-03-21](https://github.com/M3-org/schedule/tree/master/2020-03-21) - VR conferences / Free association in the Metaverse / Metachromium demo
 - [ ] [2020-04-04](https://github.com/M3-org/schedule/tree/master/2020-04-04) - Blockchain = true Metaverse / Universal Cyberspace Hardware / Makepad / Workflow for Interdimensional trade
- - Highlight reel: https://youtu.be/xz4o2RS5S9Y
+  - Highlight reel: https://youtu.be/xz4o2RS5S9Y
 - [ ] [2020-04-25](https://github.com/M3-org/schedule/tree/master/2020-04-25) - Metaverse News / Reality Bending / Virtual Events / Vket (Virtual Market)
 - [ ] 2020-10-17 - [NFT Hub](https://www.youtube.com/watch?v=WYRDnYIZyx0) / [Metamask Firefox Reality](https://www.youtube.com/watch?v=x1lpn2wJr94) / [Liquid Work (web3xr)](https://www.youtube.com/watch?v=Eq_20-TBgBw)
 
@@ -70,6 +70,10 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
 - [x] 22-01-21 [Metaversing: Big Meta](https://hackmd.io/@XR/metaversing-bigmeta)
 - [x] 22-01-28 [Metaversing: WebXR Workflows](https://hackmd.io/@XR/webxr-workflows)
 - [x] 22-02-04 [Metaversing: Home Spaces](https://hackmd.io/@XR/metaversing-homespaces)
+- [x] 22-02-08 [Avatar Interop meetup 1](https://docs.google.com/presentation/d/1WawoWJRM94f7PeRh4LiMhfzTVOGacYoX02N7fFcIkII/edit?usp=sharing)
+  - Video: https://www.twitch.tv/videos/1293166793
+- [x] 22-02-15 [Avatar Interop meetup 2](https://docs.google.com/presentation/d/1ZMgBnXpI2x-cD8fbxlMn3Q2SxC-egm-BG_gDk6OP9jQ/edit?usp=sharing)
+  - Video: https://www.youtube.com/watch?v=VQgFZdjka2w
 
 ---
 
