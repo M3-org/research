@@ -11,7 +11,11 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
 ---
 
 #### **Table of Contents**
- 
+
+- [**Composability Panel**](https://github.com/M3-org/research#composability-panel)
+    - [Video](https://www.youtube.com/watch?v=t4IQwq47LuY)
+- [**Convergence Panel**](https://github.com/M3-org/research#convergence-panel)
+    - [Video](https://www.youtube.com/watch?v=g2lZ3myTsj8) 
 - [**Virtual Market 4 Field Trip**](https://github.com/M3-org/research#virtual-market-4-field-trip)
     - [Write-up](https://m3-org.github.io/research/vket4.html)
 - [**Blockchain Virtual Worlds**](https://github.com/M3-org/research#blockchain-virtual-worlds)
