@@ -78,6 +78,8 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
   - Video: https://www.twitch.tv/videos/1293166793
 - [x] 22-02-15 [Avatar Interop meetup 2](https://docs.google.com/presentation/d/1ZMgBnXpI2x-cD8fbxlMn3Q2SxC-egm-BG_gDk6OP9jQ/edit?usp=sharing)
   - Video: https://www.youtube.com/watch?v=VQgFZdjka2w
+- [x] 22-03-08 [Avatar Interop meetup 3](https://docs.google.com/presentation/d/1fGxEd7RqWuGqPozXrwBXllb5aiYWaq5UZVCAjMRRS90/edit?usp=sharing)
+  - Video: https://www.youtube.com/watch?v=bPiRNrFJsW8
 
 ---
 
