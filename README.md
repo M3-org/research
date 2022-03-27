@@ -74,15 +74,15 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
 - [x] 22-01-21 [Metaversing: Big Meta](https://hackmd.io/@XR/metaversing-bigmeta)
 - [x] 22-01-28 [Metaversing: WebXR Workflows](https://hackmd.io/@XR/webxr-workflows)
 - [x] 22-02-04 [Metaversing: Home Spaces](https://hackmd.io/@XR/metaversing-homespaces)
-- [x] 22-02-08 [Avatar Interop meetup 1](https://docs.google.com/presentation/d/1WawoWJRM94f7PeRh4LiMhfzTVOGacYoX02N7fFcIkII/edit?usp=sharing)
+- [x] 22-02-08 [Avatar Interop meetup 1](https://github.com/M3-org/avatar-interop/discussions/6)
   - Video: https://www.twitch.tv/videos/1293166793
-- [x] 22-02-15 [Avatar Interop meetup 2](https://docs.google.com/presentation/d/1ZMgBnXpI2x-cD8fbxlMn3Q2SxC-egm-BG_gDk6OP9jQ/edit?usp=sharing)
+- [x] 22-02-15 [Avatar Interop meetup 2](https://github.com/M3-org/avatar-interop/discussions/6)
   - Video: https://www.youtube.com/watch?v=VQgFZdjka2w
-- [x] 22-03-08 [Avatar Interop meetup 3](https://docs.google.com/presentation/d/1fGxEd7RqWuGqPozXrwBXllb5aiYWaq5UZVCAjMRRS90/edit?usp=sharing)
+- [x] 22-03-08 [Avatar Interop meetup 3](https://github.com/M3-org/avatar-interop/discussions/6)
   - Video: https://www.youtube.com/watch?v=bPiRNrFJsW8
-- [x] 22-03-15 [Avatar Interop meetup 4](https://docs.google.com/presentation/d/1zjMXQwqrnVT14WyiM7mCeHEHPkIX92DDCkJpBOcC_cU/edit?usp=sharing)
+- [x] 22-03-15 [Avatar Interop meetup 4](https://github.com/M3-org/avatar-interop/discussions/8)
   - Videos: https://github.com/M3-org/avatar-interop/discussions/8#discussioncomment-2369023
-- [x] 22-03-22 [Avatar Interop meetup 5](https://docs.google.com/presentation/d/1NQcC4iWrXbUiCyvVtKwYZzpk3IET68hzFJcO0u6T50I/edit?usp=sharing)
+- [x] 22-03-22 [Avatar Interop meetup 5](https://github.com/M3-org/avatar-interop/discussions/11)
   - Video: https://www.youtube.com/watch?v=lxV5GK8CJRU
 
 ---
