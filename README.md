@@ -84,6 +84,9 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
   - Videos: https://github.com/M3-org/avatar-interop/discussions/8#discussioncomment-2369023
 - [x] 22-03-22 [Avatar Interop meetup 5](https://github.com/M3-org/avatar-interop/discussions/11)
   - Video: https://www.youtube.com/watch?v=lxV5GK8CJRU
+- [x] 22-04-07 [M3 x Metaverse Crew event](https://docs.google.com/presentation/d/1j49zARAAECCSF4EoyyN_VkRkzCqFnQUvVx0NTq8GH7Y/edit?usp=sharing)
+  - Video: https://www.youtube.com/watch?v=ls21IwX94YE
+- [x] 22-04-08 [Demo Day 1 w/ Sith, Jin, A](https://twitter.com/dankvr/status/1512521045579902976)
 
 ---
 
