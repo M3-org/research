@@ -87,6 +87,9 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
 - [x] 22-04-07 [M3 x Metaverse Crew event](https://docs.google.com/presentation/d/1j49zARAAECCSF4EoyyN_VkRkzCqFnQUvVx0NTq8GH7Y/edit?usp=sharing)
   - Video: https://www.youtube.com/watch?v=ls21IwX94YE
 - [x] 22-04-08 [Demo Day 1 w/ Sith, Jin, A](https://twitter.com/dankvr/status/1512521045579902976)
+- [x] 22-04-22 [Demo Day 2 w/ M2, Jin, Robert](https://twitter.com/dankvr/status/1517530340553801734)
+  - [Jins Slides](https://docs.google.com/presentation/d/1MmqoCUGvjrlzilt3foV6g4UWjasUowiV07oobzGogbQ/edit?usp=sharing)
+  - Robert presenting Third Room: https://www.youtube.com/watch?v=zl_e2ySrRfw
 
 ---
 
