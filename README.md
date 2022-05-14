@@ -90,6 +90,10 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
 - [x] 22-04-22 [Demo Day 2 w/ M2, Jin, Robert](https://twitter.com/dankvr/status/1517530340553801734)
   - [Jins Slides](https://docs.google.com/presentation/d/1MmqoCUGvjrlzilt3foV6g4UWjasUowiV07oobzGogbQ/edit?usp=sharing)
   - Robert presenting Third Room: https://www.youtube.com/watch?v=zl_e2ySrRfw
+- [x] 22-05-13 [Metaverse Makers Mixer](https://docs.google.com/presentation/d/1rtXsofyX2kFAzEFK5Xp4UvpnUZYsEAG1jkZ2ExE_j9I/edit?usp=sharing)
+  - [Jin: M3 2.0 Video](https://www.youtube.com/watch?v=eLX3hXW17i0)
+  - [Boomboxhead: Virtual Virtual Production](https://www.youtube.com/watch?v=4ZFa1hJRyXk)
+  - [A: Metaverse Clipboard](https://www.youtube.com/watch?v=b31-qu0x0uM)
 
 ---
 
