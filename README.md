@@ -94,6 +94,13 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
   - [Jin: M3 2.0 Video](https://www.youtube.com/watch?v=eLX3hXW17i0)
   - [Boomboxhead: Virtual Virtual Production](https://www.youtube.com/watch?v=4ZFa1hJRyXk)
   - [A: Metaverse Clipboard](https://www.youtube.com/watch?v=b31-qu0x0uM)
+- [x] 22-07-19 [Loot: Emergent Artwork @ M3 Avatar Interop Group](https://www.youtube.com/watch?v=d6VZxNFF4DA)
+- [x] 22-08-02 [Avatar randomizer update + Interactive wearable overlay apps](https://www.youtube.com/watch?v=ViIMCvgmOUM)
+- [x] 22-08-09 Avatar Interop Group Weekly
+  - [What could NPCs do? by A](https://www.youtube.com/watch?v=jLzRKxZkdyw)
+  - [Pets in Anarchy Arcade by SM SithLord](https://www.youtube.com/watch?v=STQRpylK8kI)
+  - [Hyperfy NPCs and quests by Ash](https://www.youtube.com/watch?v=Ci1oB-LoMfc)
+
 
 ---
 
