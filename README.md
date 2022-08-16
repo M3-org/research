@@ -100,7 +100,7 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
   - [What could NPCs do? by A](https://www.youtube.com/watch?v=jLzRKxZkdyw)
   - [Pets in Anarchy Arcade by SM SithLord](https://www.youtube.com/watch?v=STQRpylK8kI)
   - [Hyperfy NPCs and quests by Ash](https://www.youtube.com/watch?v=Ci1oB-LoMfc)
-
+- [x] 22-08-16 [VRM avatar workshop by jin](https://hackmd.io/@XR/aig-vrm-workshop)
 
 ---
 
