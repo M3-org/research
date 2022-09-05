@@ -101,6 +101,8 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
   - [Pets in Anarchy Arcade by SM SithLord](https://www.youtube.com/watch?v=STQRpylK8kI)
   - [Hyperfy NPCs and quests by Ash](https://www.youtube.com/watch?v=Ci1oB-LoMfc)
 - [x] 22-08-16 [VRM avatar workshop by jin](https://hackmd.io/@XR/aig-vrm-workshop)
+- [x] 22-08-22 [Avatar Interop meetup 8-22](https://www.youtube.com/watch?v=H2_UeJx4GOE)
+- [x] 22-08-30 [Field trip into Hyperfy w/ VRMs](https://www.youtube.com/watch?v=yVNr6q8lpj0)
 
 ---
 
