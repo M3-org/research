@@ -12,6 +12,8 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
 
 #### **Table of Contents**
 
+- [**Vket Summer 2022**](https://github.com/M3-org/research#vket-summer-2022)
+    - [Video](https://www.youtube.com/watch?v=6sQgPZQXK7Y)
 - [**Composability Panel**](https://github.com/M3-org/research#composability-panel)
     - [Video](https://www.youtube.com/watch?v=t4IQwq47LuY)
 - [**Convergence Panel**](https://github.com/M3-org/research#convergence-panel)
@@ -22,6 +24,8 @@ Have an idea? There are separate opportunities from the bi-weekly gatherings to 
     - [Proposal](https://github.com/M3-org/proposals/issues/9/)
 - [**Tim Sweeney Open Metaverse**](https://github.com/M3-org/research/#tim-sweeney-open-metaverse)
     - [Proposal](https://github.com/M3-org/research/issues/5)
+- [**Boomboxhead2 VR Music Video**](https://github.com/M3-org/research#boomboxhead2-vr-music-video)
+    - [Write-up](https://hackmd.io/@XR/vrmusicvid-boomboxhead2)
 - [**Virtual World Economy Panel**](https://github.com/M3-org/research#virtual-world-economy-panel)
     - [Write-up](https://m3-org.github.io/research/panel.html)
 - [**Virtual Market 3 Field Trip**](https://github.com/M3-org/research#virtual-market-3-field-trip)
@@ -106,6 +110,16 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
 
 ---
 
+### Vket Summer 2022
+
+The recap video from the M3 field trip adventure of Summer Virtual Market, the biggest VR street festival in VR. Huge shoutout to ALTERED EVIL for editing help, check out his [YouTube channel](https://www.youtube.com/watch?v=6sQgPZQXK7Y)! This event occured at a time when some of us were inspired by Burning Man and Vket to collab on building a space / art show / expo about the open metaverse movement.
+
+![image](https://user-images.githubusercontent.com/32600939/189559308-8b090154-3626-491f-aa54-fcaaf773376e.png)
+
+- Link to video: <https://www.youtube.com/watch?v=6sQgPZQXK7Y>
+
+---
+
 ### Composability Panel
 
 The first episode of a web series to bring web3 and VR developers to talk about building the Metaverse. The topic of this episode is about composability and features [@bai](https://twitter.com/bai0) (JanusXR), [@webmixedreality](https://twitter.com/webmixedreality) (Webaverse), [@toxsam](https://twitter.com/toxsam) (Polygonal Mind / Cryptoavatars), and [@META_DREAMER](https://twitter.com/META_DREAMER) (Metafactory). The show is recorded inside of a 3D scan of the Internet Archive HQ in SF interior.
@@ -162,6 +176,17 @@ We've transcribed Tim Sweeney's epic talk from SIGGRAPH 2019, THRIVE: Foundation
 - Link to proposal: <https://github.com/M3-org/research/issues/5>
 - Link to audio: <https://soundcloud.com/siggraph-spotlight/30-tim-sweeney-and-the-metaverse>
 - Link to transcript: <https://github.com/M3-org/research/blob/master/sweeney.md>
+
+---
+
+### Boomboxhead2 VR Music Video
+
+Behind the scenes look at how we filmed the music video for Boomboxhead 2 inside Virtual Reality. We had a single camera track going throughout a VR studio that combined photogrammetry and set design and a couple dozen of our dancer friends show up film live. This was the first project collab between jin and boomboxhead!
+
+![](https://i.imgur.com/EkJ2HPi.jpg)
+
+- Link to video: <https://www.youtube.com/watch?v=a5eT5UpHDiY>
+- Link to write-up: <https://hackmd.io/@XR/vrmusicvid-boomboxhead2>
 
 ---
 
