@@ -107,6 +107,13 @@ Currently hosting twitter spaces with hackmds open for taking notes. Twitter spa
 - [x] 22-08-16 [VRM avatar workshop by jin](https://hackmd.io/@XR/aig-vrm-workshop)
 - [x] 22-08-22 [Avatar Interop meetup 8-22](https://www.youtube.com/watch?v=H2_UeJx4GOE)
 - [x] 22-08-30 [Field trip into Hyperfy w/ VRMs](https://www.youtube.com/watch?v=yVNr6q8lpj0)
+- [9-13-22 Avatar Interop](https://hackmd.io/@arashichan/BksZqqAgj)
+- [9-19-22 VPROD](https://hackmd.io/@arashichan/rJwUlQL-j)
+- [9-20-22 Avatar Interop](https://hackmd.io/@arashichan/S10L4AvWo)
+- [10-3-22 VPROD](https://hackmd.io/@arashichan/BybNr5uGj)
+- [10-10-22 VPROD](https://hackmd.io/@arashichan/r1BLk0Z7s)
+- [10-17-22 VPROD](https://hackmd.io/mhD3P_5JRmSxCcEYkBHJUQ?both)
+
 
 ---
 
